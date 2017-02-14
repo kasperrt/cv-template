@@ -5,7 +5,7 @@
 body{
   margin: auto;
   height: 100vh;
-  background: linear-gradient( to bottom, #71C387 90%, #d6b55fc4 50%);
+  background: linear-gradient( to bottom, #71C387 90%, #e8c872 50%);
   /*background: #71C387;*/
   background-attachment: fixed;
 
@@ -116,8 +116,16 @@ header{
   margin-bottom:0px;
 }
 
+.mini_header_title{
+  margin-top:-18px;
+}
+
 .mini_header_date{
   margin-top:0px;
+}
+
+.mini_header_grade{
+  margin-top:-15px;
 }
 
 .done_divider{
