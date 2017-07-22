@@ -29,6 +29,7 @@ body{
   color:#de0000;
   text-decoration: none;
   font-family: alegreya;
+  padding-bottom: 20px;
 }
 
 .container{
@@ -181,7 +182,7 @@ ul{
   }
 
   .portfolio div, .education div, .skills div, .referanser div{
-    font-size:3rem;
+    font-size:1rem;
     line-height:initial;
   }
 
