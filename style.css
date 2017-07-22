@@ -54,9 +54,9 @@ header{
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   border-radius: 150px;
-  background: url(me.jpg) no-repeat;
-  background-position: center;
-  background-size: 160%;
+  /*background: url(me.jpg) no-repeat;*/
+  background-position: center !important;
+  background-size: 160% !important;
   margin: auto;
   margin-bottom:20px;
 }

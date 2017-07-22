@@ -1,0 +1,120 @@
+{
+	"name": "Kasper Rynning-Tønnesen",
+	"email": "kasper@kasperrt.no",
+	"phone": "+47 97 74 04 27",
+	"image": "me.jpg",
+	"background": "linear-gradient( to bottom, #71C387 90%, #e8c872 50%);",
+	"website": "kasperrt.no",
+	"born": "29. august 1993",
+	"address": "Frydenbergvegen 3, 7050 Trondheim",
+	"work": [{
+			"slug": "knowit",
+			"name": "Knowit Experience",
+			"when_where": "Oslo 2017",
+			"title": "Sommerjobb",
+			"description": "Utviklet app i Xamarin forms"
+		},
+		{
+			"slug": "uninett",
+			"name": "UNINETT",
+			"when_where": "Trhdomehim 2016 - 2017",
+			"title": "Sommerjobb & Deltidsutvikler",
+			"description": "Utviklet diverse autentiseringsmoduler opp mot Dataporten for flere samarbeidsverktøy, og docker-iserte disse. Eksempler på autentiseringsmoduler laget er: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> og <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
+		},
+		{
+			"slug": "zoffapp",
+			"name": "Zoff Android app",
+			"when_where": "Trondheim 2017",
+			"title": "Utvikler",
+			"description": "Utviklet Android app for Zoff (<a href='https://play.google.com/store/apps/details?id=zoff.me.zoff&amp;hl=no'>Google Play</a>)"
+		},
+		{
+			"slug": "gurutjenesten",
+			"name": "Gurutjenesten",
+			"when_where": "Trondheim 2015 - Nå",
+			"title": "IT-Service",
+			"description": "Hjelpe studenter med reformatering og installasjon av operativsystemer."
+		},
+		{
+			"slug": "gurutjenestensommer",
+			"name": "Somerjobb Gurutjenesten",
+			"when_where": "Trondheim 2015",
+			"title": "Kabeltrekker",
+			"description": "Trakk kabler for lesesaler og master-datasaler."
+		},
+		{
+			"slug": "zoff",
+			"name": "Zoff",
+			"when_where": "Trondheim 2014-2017",
+			"title": "Utvikler & Oppfinner",
+			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube API i front-end for henting og avspilling av videoer. Bruker NodeJS med MongoDB som database, og har socket.io som websocket-tjeneste."
+		},
+		{
+			"slug": "sh-arkitekter",
+			"name": "Stein Halvorsen Arkitekter AS",
+			"when_where": "Trondheim 2013-2014",
+			"title": "Utvikler",
+			"description": "Utviklet bedriftsnettside for Stein Halvorsen Arkitekter (<a href='http://sh-arkitekter.no'>http://sh-arkitekter.no</a>)."
+		}
+	],
+	"education": [{
+			"slug": "master",
+			"title": "Master i Informatikk",
+			"when_where": "NTNU - Trondheim - 2017 - nå",
+			"grade": null
+		},
+		{
+			"slug": "bachelor",
+			"title": "Bachelor i Informatikk",
+			"when_where": "NTNU - Trondheim - 2013 - 2016",
+			"grade": "Snittkarakter - C"
+		},
+		{
+			"slug": "fhs",
+			"title": "Vind og Vatten",
+			"when_where": "Nordfjord Folkehøgskule - Gloppen - 2012 - 2013",
+			"grade": null
+		},
+		{
+			"slug": "vgs",
+			"title": "Studiespesialisering",
+			"when_where": "Rosenvilde Videregående - Bærum - 2009 - 2012",
+			"grade": null
+		}
+	],
+	"skills": {
+		"technologies": [
+			"JavaScript, PHP, HTML5, CSS3 (siden 2011)",
+			"Objektorienter Programmering og Java (siden 2014)",
+			"Databaser: MySQL (siden 2012), MongoDB (siden 2014)",
+			"Andre språk: Python (siden 2013), C# (siden 2017)",
+			"Teknologier: react, react-native, xamarin forms, cordova"
+		],
+		"languages": [
+			"Norsk     - Flytende, skriftlig og muntlig",
+			"Engelsk   - Flytende skriftlig og muntlig",
+			"Fransk    - Forstår noe"
+		]
+	},
+	"references": [{
+			"slug": "knowit_ref",
+			"name": "Knowit Experience • Jan Petter Hoel",
+			"email": "jan.petter.hoel@knowit.no"
+		},
+		{
+			"slug": "uninett_ref",
+			"name": "UNINETT • Andreas Åkre Solberg",
+			"email": "andreas.solberg@uninett.no"
+		},
+		{
+			"slug": "gurutjenesten_ref",
+			"name": "Gurutjenesten • Anders Christensen",
+			"email": "anders@idi.ntnu.no"
+		},
+		{
+			"slug": "sh-arkitekter_ref",
+			"name": "SH-Arkitekter • Asgeir Stordal",
+			"email": "asgeir@sh-arkitekter.no"
+		}
+	]
+}
