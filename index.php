@@ -45,7 +45,7 @@
           <span class="small_header">Praksis</span>
           <?php foreach($data["work"] as $work): ?>
             <hr class="done_divider" />
-            <div class="<?php echo $work["slug"]; ?>">
+            <div class="<?php echo $work["slug"]; ?> portfolio-div">
               <p class="mini_header"><?php echo $work["name"]; ?></p>
               <p class="mini_header_date"><?php echo $work["when_where"]; ?></p>
               <p class="mini_header_title"><?php echo $work["title"]; ?></p>
@@ -55,16 +55,18 @@
         </div>
         <div class="education">
           <span class="small_header">Utdanning</span>
-          <?php foreach($data["education"] as $education): ?>
-            <hr class="done_divider" />
-            <div class="<?php echo $education["slug"]; ?>">
-              <p class="mini_header"><?php echo $education["title"]; ?></p>
-              <p class="mini_header_date"><?php echo $education["when_where"]; ?></p>
-              <?php if($education["grade"] != null): ?>
-                <p class="mini_header_grade"><?php echo $education["grade"]; ?></p>
-              <?php endif; ?>
-            </div>
-          <?php endforeach; ?>
+          <div class="education_flex">
+            <?php foreach($data["education"] as $education): ?>
+
+              <div class="<?php echo $education["slug"]; ?>">
+                <p class="mini_header"><?php echo $education["title"]; ?></p>
+                <p class="mini_header_date"><?php echo $education["when_where"]; ?></p>
+                <?php if($education["grade"] != null): ?>
+                  <p class="mini_header_grade"><?php echo $education["grade"]; ?></p>
+                <?php endif; ?>
+              </div>
+            <?php endforeach; ?>
+          </div>
         </div>
         <div class="skills">
           <span class="small_header">Ferdigheter</span>
@@ -75,7 +77,7 @@
                 <li><?php echo $description; ?></li>
               <?php endforeach; ?>
             </ul>
-            <p class="mini_header">Språk</p>
+            <p class="mini_header languages">Språk</p>
             <ul>
               <?php foreach($data["skills"]["languages"] as $lang): ?>
                 <li><?php echo $lang; ?></li>
@@ -85,13 +87,14 @@
         </div>
         <div class="referanser">
           <span class="small_header">Referanser</span>
-          <?php foreach($data["references"] as $ref): ?>
-            <div class="<?php echo $ref["slug"]; ?>">
-              <p class="mini_header"><?php echo $ref["name"]; ?></p>
-              <p class="mini_header_date"><?php echo $ref["email"]; ?></p>
-            </div>
-            <hr class="done_divider" />
-          <?php endforeach; ?>
+          <div class="referanser_flex">
+            <?php foreach($data["references"] as $ref): ?>
+              <div class="<?php echo $ref["slug"]; ?>">
+                <p class="mini_header"><?php echo $ref["name"]; ?></p>
+                <p class="mini_header_date"><?php echo $ref["email"]; ?></p>
+              </div>
+            <?php endforeach; ?>
+          </div>
           <a href="javascript:window.print()" class="print">Last ned som PDF</a>
         </div>
       </div>

@@ -204,6 +204,11 @@ ul{
   .me_picture{
     width:100px;
     height:100px;
+    margin-bottom: 0px;
+  }
+
+  .done_divider {
+    margin: 4px auto;
   }
 
   .container{
@@ -212,12 +217,55 @@ ul{
     margin-top:0;
   }
 
+  .education_flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .education div {
+    width: 50%;
+  }
+
+  .education {
+    max-width: 100%;
+  }
+
   a{
     color:black !important;
   }
 
-  .zoff{
-    padding-bottom:100px;
+  header {
+    padding: 1rem;
   }
 
+  .gurutjenestensommer {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .my_name {
+    font-size: 2rem;
+  }
+
+  .way_contact {
+    font-size: 1rem;
+  }
+
+  .portfolio-div {
+        page-break-inside: avoid;
+  }
+
+  .languages {
+    padding-top: 40px;
+  }
+}
+
+.referanser_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.referanser_flex div {
+  width: 50%;
 }
