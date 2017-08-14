@@ -34,7 +34,7 @@
           <div class="contact_top">
             <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="mail padding10" href="mailto:<?php echo $data["email"]; ?>"><?php echo $data["email"]; ?></a>
             <i class="fa fa-phone" aria-hidden="true"></i><span class="phone padding10"><?php echo $data["phone"]; ?></span>
-            <i class="fa fa-globe" aria-hidden="true"></i><a class="homepage padding10" href="http://<?php echo $data["website_link"]; ?>"><?php echo $data["website"]; ?></a>
+            <i class="fa fa-globe" aria-hidden="true"></i><a class="homepage padding10" href="<?php echo $data["website_link"]; ?>"><?php echo $data["website"]; ?></a>
           </div>
           <div class="contact_bot">
             <i class="fa fa-mars" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
