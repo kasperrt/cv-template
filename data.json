@@ -11,13 +11,20 @@
 			"slug": "knowit",
 			"name": "Knowit Experience",
 			"when_where": "Oslo 2017",
-			"title": "Sommerjobb",
+			"title": "Sommerjobb - systemutvikler",
 			"description": "Utviklet pilotapp for <a href='https://www.los.no/'>LOS</a> i Xamarin forms"
+		},
+		{
+			"slug": "studass",
+			"name": "NTNU",
+			"when_where": "Trondheim 2017",
+			"title": "Studieassistent",
+			"description": "Studieassistent i faget <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> ved IDI NTNU."
 		},
 		{
 			"slug": "uninett",
 			"name": "UNINETT",
-			"when_where": "Trhdomehim 2016 - 2017",
+			"when_where": "Trondheim 2016 - 2017",
 			"title": "Sommerjobb & Deltidsutvikler",
 			"description": "Utviklet diverse autentiseringsmoduler opp mot Dataporten for flere samarbeidsverktøy, og docker-iserte disse. Eksempler på autentiseringsmoduler laget er: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> og <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
 		},
