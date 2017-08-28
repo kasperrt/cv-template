@@ -89,6 +89,10 @@ header{
     font-family: alegreya;
 }
 
+.referanser {
+  padding-bottom: 20px;
+}
+
 .portfolio div, .education div, .skills div, .referanser div{
   font-size: 1rem;
   line-height: 1.4rem;

@@ -8,7 +8,6 @@
     $data["website_link"] = "http://" . $data["website"];
   }
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>
