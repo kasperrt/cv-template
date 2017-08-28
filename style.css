@@ -173,6 +173,17 @@ ul{
   padding:0 0 0 20px;
 }
 
+.referanser_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.referanser_flex div {
+  width: 50%;
+}
+
+
 @media only screen and (max-width: 736px) and (max-width:600px), only screen and (max-device-width: 736px){
   .container{
     max-width:100%;
@@ -191,6 +202,10 @@ ul{
 
   .fa{
     padding-right:20px;
+  }
+
+  .referanser_flex div {
+    width: 100%;
   }
 }
 
@@ -261,14 +276,4 @@ ul{
   .languages {
     padding-top: 40px;
   }
-}
-
-.referanser_flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.referanser_flex div {
-  width: 50%;
 }
