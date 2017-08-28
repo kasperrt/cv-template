@@ -90,14 +90,14 @@
 		}
 	],
 	"skills": {
-		"technologies": [
+		"Teknologier": [
 			"JavaScript, PHP, HTML5, CSS3 (siden 2011)",
 			"Objektorienter Programmering og Java (siden 2014)",
 			"Databaser: MySQL (siden 2012), MongoDB (siden 2014)",
 			"Andre språk: Python (siden 2013), C# (siden 2017)",
 			"Teknologier: react, react-native, xamarin forms, cordova"
 		],
-		"languages": [
+		"Språk": [
 			"Norsk     - Flytende, skriftlig og muntlig",
 			"Engelsk   - Flytende skriftlig og muntlig",
 			"Fransk    - Forstår noe"

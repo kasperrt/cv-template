@@ -1,6 +1,7 @@
 <?php
   $data = file_get_contents('data.json');
   $data = json_decode($data, true);
+  $skills = array_keys($data["skills"]);
 
   if(substr( $data["website"], 0, 4 ) === "http") {
     $data["website_link"] = $data["website"];
@@ -70,18 +71,14 @@
         <div class="skills">
           <span class="small_header">Ferdigheter</span>
           <div class="skill_list">
-            <p class="mini_header">Teknologier</p>
-            <ul>
-              <?php foreach($data["skills"]["technologies"] as $description): ?>
-                <li><?php echo $description; ?></li>
-              <?php endforeach; ?>
-            </ul>
-            <p class="mini_header languages">Språk</p>
-            <ul>
-              <?php foreach($data["skills"]["languages"] as $lang): ?>
-                <li><?php echo $lang; ?></li>
-              <?php endforeach; ?>
-            </ul>
+            <?php foreach($skills as $skill): ?>
+              <p class="mini_header"><?php echo $skill; ?></p>
+              <ul>
+                <?php foreach($data["skills"][$skill] as $description): ?>
+                  <li><?php echo $description; ?></li>
+                <?php endforeach; ?>
+              </ul>
+            <?php endforeach; ?>
           </div>
         </div>
         <div class="referanser">
