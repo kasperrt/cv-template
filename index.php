@@ -37,7 +37,7 @@
             <i class="fa fa-globe" aria-hidden="true"></i><a class="homepage padding10" href="<?php echo $data["website_link"]; ?>"><?php echo $data["website"]; ?></a>
           </div>
           <div class="contact_bot">
-            <i class="fa fa-mars" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
+            <i class="fa fa-calendar-o" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
             <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"]; ?></span>
           </div>
         </div>
