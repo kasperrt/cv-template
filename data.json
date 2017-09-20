@@ -33,7 +33,7 @@
 			"name": "Zoff Android app",
 			"when_where": "Trondheim 2017",
 			"title": "Utvikler",
-			"description": "Utviklet Android app for Zoff (<a href='https://play.google.com/store/apps/details?id=zoff.me.zoff&amp;hl=no'>Google Play</a>)"
+			"description": "Utviklet Android app for Zoff (<a href='https://play.google.com/store/apps/details?id=zoff.me.zoff&amp;hl=no'>Google Play</a>), med støtte for integrert Casting."
 		},
 		{
 			"slug": "gurutjenesten",
@@ -54,7 +54,7 @@
 			"name": "Zoff",
 			"when_where": "Trondheim 2014-2017",
 			"title": "Utvikler & Oppfinner",
-			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube API i front-end for henting og avspilling av videoer. Bruker NodeJS med MongoDB som database, og har socket.io som websocket-tjeneste."
+			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube API i front-end for henting og avspilling av videoer, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som database, og har socket.io som websocket-tjeneste."
 		},
 		{
 			"slug": "sh-arkitekter",
