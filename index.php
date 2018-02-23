@@ -64,6 +64,9 @@
                 <?php if($education["grade"] != null): ?>
                   <p class="mini_header_grade"><?php echo $education["grade"]; ?></p>
                 <?php endif; ?>
+                <?php if($education["script"] != null): ?>
+                    <script type="text/javascript"><?php echo $education["script"]; ?></script>
+                <?php endif; ?>
               </div>
             <?php endforeach; ?>
           </div>

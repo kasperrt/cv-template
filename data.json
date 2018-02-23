@@ -43,13 +43,6 @@
 			"description": "Hjelpe studenter med reformatering og installasjon av operativsystemer."
 		},
 		{
-			"slug": "gurutjenestensommer",
-			"name": "Somerjobb Gurutjenesten",
-			"when_where": "Trondheim 2015",
-			"title": "Kabeltrekker",
-			"description": "Trakk kabler for lesesaler og master-datasaler."
-		},
-		{
 			"slug": "zoff",
 			"name": "Zoff",
 			"when_where": "Trondheim 2014-2017",
@@ -68,25 +61,69 @@
 			"slug": "master",
 			"title": "Master i Informatikk",
 			"when_where": "NTNU - Trondheim - 2017 - nå",
-			"grade": null
+			"script": "
+				var end = new Date('12/01/2018 23:59');
+
+			    var _second = 1000;
+			    var _minute = _second * 60;
+			    var _hour = _minute * 60;
+			    var _day = _hour * 24;
+			    var timer;
+
+			    function showRemaining() {
+			        var now = new Date();
+			        var distance = end - now;
+			        if (distance < 0) {
+
+			            clearInterval(timer);
+			            document.getElementById('countdown').innerHTML = 'EXPIRED!';
+
+			            return;
+			        }
+			        var days = Math.floor(distance / _day);
+			        var hours = Math.floor((distance % _day) / _hour);
+			        var minutes = Math.floor((distance % _hour) / _minute);
+			        var seconds = Math.floor((distance % _minute) / _second);
+
+					if(days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
+						document.getElementById(\"countdown\").remove();
+					} else {
+						document.getElementById('countdown').innerHTML = 'Leveres om: ';
+				        document.getElementById('countdown').innerHTML += days + ' dager ';
+				        document.getElementById('countdown').innerHTML += hours + ' timer ';
+				        document.getElementById('countdown').innerHTML += minutes + ' minutter ';
+				        document.getElementById('countdown').innerHTML += seconds + ' sekunder';
+					}
+			    }
+				if(document.getElementById(\"countdown\")) return;
+				else {
+					console.log(\"no\");
+					document.getElementsByClassName(\"master\")[0].innerHTML += \"<div id='countdown' style=\"margin-top: -16px;margin-bottom: 16px;\"></div>\";
+				}
+			    timer = setInterval(showRemaining, 1000);",
+			"grade": null,
+			"script": null
 		},
 		{
 			"slug": "bachelor",
 			"title": "Bachelor i Informatikk",
 			"when_where": "NTNU - Trondheim - 2013 - 2016",
-			"grade": "Snittkarakter - C"
+			"grade": "Snittkarakter - C",
+			"script": null
 		},
 		{
 			"slug": "fhs",
 			"title": "Vind og Vatten",
 			"when_where": "Nordfjord Folkehøgskule - Gloppen - 2012 - 2013",
-			"grade": null
+			"grade": null,
+			"script": null
 		},
 		{
 			"slug": "vgs",
 			"title": "Studiespesialisering",
 			"when_where": "Rosenvilde Videregående - Bærum - 2009 - 2012",
-			"grade": null
+			"grade": null,
+			"script": null
 		}
 	],
 	"skills": {
@@ -115,8 +152,8 @@
 		},
 		{
 			"slug": "gurutjenesten_ref",
-			"name": "Gurutjenesten • Anders Christensen",
-			"email": "anders@idi.ntnu.no"
+			"name": "Gurutjenesten • Alf Andreas Høiseth",
+			"email": "alfh@ntnu.no"
 		},
 		{
 			"slug": "sh-arkitekter_ref",
