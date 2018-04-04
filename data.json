@@ -45,7 +45,7 @@
 		{
 			"slug": "zoff",
 			"name": "Zoff",
-			"when_where": "Trondheim 2014-2017",
+			"when_where": "Trondheim 2014 - Nå",
 			"title": "Utvikler & Oppfinner",
 			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube API i front-end for henting og avspilling av videoer, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som database, og har socket.io som websocket-tjeneste."
 		},
