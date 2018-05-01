@@ -235,6 +235,30 @@ ul{
     display: none;
   }
 
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .done_divider {
+    display: none;
+  }
+
+  .portfolio .small_header {
+    width: 100%
+  }
+
+  .portfolio div {
+    width: 50%;
+  }
+
+  .intro {
+    display: none;
+  }
+
   .me_picture{
     width:100px;
     height:100px;
@@ -257,11 +281,15 @@ ul{
   }
 
   .education div {
-    width: 50%;
+    /*width: 50%;*/
+  }
+
+  .countdown {
+    display: none;
   }
 
   .education {
-    max-width: 100%;
+    max-width: 85%;
   }
 
   a{
@@ -279,6 +307,11 @@ ul{
 
   .my_name {
     font-size: 2rem;
+  }
+
+  .skills {
+    margin-top: 20%;
+    page-break-inside: avoid;
   }
 
   .way_contact {
