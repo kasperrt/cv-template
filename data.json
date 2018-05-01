@@ -53,28 +53,32 @@
 	"education": [{
 			"slug": "master",
 			"title": "Master i Informatikk",
-			"when_where": "NTNU - Trondheim - 2017 - nå",
+			"where": "NTNU - Trondheim",
+            "when": "2017 - nå",
 			"script": "var end = new Date('12/01/2018 23:59');var _second = 1000;var _minute = _second * 60;var _hour = _minute * 60;var _day = _hour * 24;var timer;function showRemaining() {var now = new Date();var distance = end - now;if (distance < 0) {clearInterval(timer);document.getElementById('countdown').remove();return;}var days = Math.floor(distance / _day);var hours = Math.floor((distance % _day) / _hour);var minutes = Math.floor((distance % _hour) / _minute);var seconds = Math.floor((distance % _minute) / _second);document.getElementById('countdown').innerHTML = 'Leveres om: ';document.getElementById('countdown').innerHTML += pad(days) + ' dager ';document.getElementById('countdown').innerHTML += pad(hours) + ' timer ';document.getElementById('countdown').innerHTML += pad(minutes) + ' minutter ';document.getElementById('countdown').innerHTML += pad(seconds) + ' sekunder';}function pad(n) {if(n < 10) {return '0' + n;}return n;}if(document.getElementById('countdown')) console.log('');else {document.getElementsByClassName('master')[0].innerHTML +='<div id=\"countdown\" style=\"margin-top: -16px;margin-bottom: 16px;\"></div>';}timer = setInterval(showRemaining, 500);",
 			"grade": null
 		},
 		{
 			"slug": "bachelor",
 			"title": "Bachelor i Informatikk",
-			"when_where": "NTNU - Trondheim - 2013 - 2016",
+			"where": "NTNU - Trondheim",
+            "when": "2013 - 2016",
 			"grade": "Snittkarakter - C",
 			"script": null
 		},
 		{
 			"slug": "fhs",
 			"title": "Vind og Vatten",
-			"when_where": "Nordfjord Folkehøgskule - Gloppen - 2012 - 2013",
+			"where": "Nordfjord Folkehøgskule - Gloppen",
+            "when": "2012 - 2013",
 			"grade": null,
 			"script": null
 		},
 		{
 			"slug": "vgs",
 			"title": "Studiespesialisering",
-			"when_where": "Rosenvilde Videregående - Bærum - 2009 - 2012",
+			"where": "Rosenvilde Videregående - Bærum",
+            "when": "2009 - 2012",
 			"grade": null,
 			"script": null
 		}

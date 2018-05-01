@@ -57,10 +57,10 @@
           <span class="small_header">Utdanning</span>
           <div class="education_flex">
             <?php foreach($data["education"] as $education): ?>
-
               <div class="<?php echo $education["slug"]; ?>">
                 <p class="mini_header"><?php echo $education["title"]; ?></p>
-                <p class="mini_header_date"><?php echo $education["when_where"]; ?></p>
+                <p class="mini_header_where"><?php echo $education["where"]; ?></p>
+                <p class="mini_header_date"><?php echo $education["when"]; ?></p>
                 <?php if($education["grade"] != null): ?>
                   <p class="mini_header_grade"><?php echo $education["grade"]; ?></p>
                 <?php endif; ?>
