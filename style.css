@@ -216,6 +216,14 @@ ul{
     line-height:initial;
   }
 
+  .education_flex {
+      flex-direction: column;
+  }
+
+  .education div {
+    width: 100%;
+  }
+
   .fa{
     padding-right:20px;
   }
@@ -278,6 +286,7 @@ ul{
   .education_flex {
     display: flex;
     flex-wrap: wrap;
+
   }
 
   .education div {
