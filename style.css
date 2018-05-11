@@ -221,7 +221,7 @@ ul{
   }
 
   .education div {
-    width: 100%;
+    width: 100% !important;
   }
 
   .fa{
