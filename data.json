@@ -8,12 +8,12 @@
 	"born": "29. august 1993",
 	"address": "Prestekragevegen 8, 7050 Trondheim",
 	"work": [{
-        "slug": "zoffcrossplatform",
-        "name": "Zoff - Cross-platform",
-        "when_where": "Trondheim 2018",
-        "title": "Utvikler",
-        "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for iOS og Android (https://play.google.com/store/apps/details?id=zoff.me.zoff)."
-    }{
+	        "slug": "zoffcrossplatform",
+	        "name": "Zoff - Cross-platform",
+	        "when_where": "Trondheim 2018",
+	        "title": "Utvikler",
+	        "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for iOS og Android (https://play.google.com/store/apps/details?id=zoff.me.zoff)."
+	    },{
 			"slug": "knowit",
 			"name": "Knowit Experience",
 			"when_where": "Oslo 2017 og Oslo 2018",
