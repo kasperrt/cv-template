@@ -12,7 +12,7 @@
 	        "name": "Zoff - Cross-platform",
 	        "when_where": "Trondheim 2018",
 	        "title": "Utvikler",
-	        "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for iOS og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
+	        "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
 	    },{
 			"slug": "knowit",
 			"name": "Knowit Experience",
