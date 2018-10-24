@@ -46,7 +46,7 @@
 			"name": "Zoff",
 			"when_where": "Trondheim 2014 - Nå",
 			"title": "Utvikler & Oppfinner",
-			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube og SoundCloud API i front-end for henting og avspilling av videoer/sanger, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som backend og database, og har socket.io som websocket-tjeneste. <br><br>Har innebygd integrasjon for eksportering og importer til og fra YouTube, SoundCloud og Spotify. Spesifikk støtte for innebygd-player med begrenset funksjonalitet."
+			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube og SoundCloud API i front-end for henting og avspilling av videoer/sanger, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som backend og database, og har socket.io som websocket-tjeneste. <br><br>Har innebygd integrasjon for eksportering og importer til og fra YouTube, SoundCloud og Spotify. Spesifikk støtte for innebygd-spiller med begrenset funksjonalitet."
 		},
 		{
 			"slug": "sh-arkitekter",
