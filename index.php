@@ -123,15 +123,15 @@
         </div>
         <a href="?lang=<?php
           if($norwegian) {
-            echo "no";
-          } else {
             echo "en";
+          } else {
+            echo "no";
           }
         ?>" id="language-setting"><?php
           if($norwegian) {
-            echo "Norsk";
-          } else {
             echo "English";
+          } else {
+            echo "Norsk";
           }
         ?></a>
       </div>
