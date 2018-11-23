@@ -251,6 +251,10 @@ ul{
     display: none;
   }
 
+  #language-setting {
+    display: none;
+  }
+
   .portfolio {
     display: flex;
     flex-direction: row;
