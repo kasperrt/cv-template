@@ -22,7 +22,15 @@ body{
   -moz-transition: opacity 1s ease;
   -o-transition: opacity 1s ease;
   transition: opacity 1s ease;
+  position: relative;
+}
 
+.language-settings {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  font-family: alegreya;
 }
 
 .print{

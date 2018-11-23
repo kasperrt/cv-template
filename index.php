@@ -8,6 +8,13 @@
   } else {
     $data["website_link"] = "http://" . $data["website"];
   }
+  $norwegian = true;
+  $lang_slug = "no";
+  if($_GET["lang"] == "en") {
+      $norwegian = false;
+      $lang_slug = "en";
+  }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,42 +49,60 @@
           </div>
         </div>
         <div class="portfolio">
-          <span class="small_header">Praksis</span>
+          <span class="small_header"><?php
+            if($norwegian) {
+                echo "Praksis";
+            } else {
+                echo "Work";
+            }
+          ?></span>
           <?php foreach($data["work"] as $work): ?>
             <hr class="done_divider" />
-            <div class="<?php echo $work["slug"]; ?> portfolio-div">
-              <p class="mini_header"><?php echo $work["name"]; ?></p>
-              <p class="mini_header_date"><?php echo $work["when_where"]; ?></p>
-              <p class="mini_header_title"><?php echo $work["title"]; ?></p>
-  	          <p class="intro"><?php echo $work["description"]; ?></p>
+            <div class="<?php echo $work[$lang_slug]["slug"]; ?> portfolio-div">
+              <p class="mini_header"><?php echo $work[$lang_slug]["name"]; ?></p>
+              <p class="mini_header_date"><?php echo $work[$lang_slug]["when_where"]; ?></p>
+              <p class="mini_header_title"><?php echo $work[$lang_slug]["title"]; ?></p>
+  	          <p class="intro"><?php echo $work[$lang_slug]["description"]; ?></p>
             </div>
           <?php endforeach; ?>
         </div>
         <div class="education">
-          <span class="small_header">Utdanning</span>
+          <span class="small_header"><?php
+            if($norwegian) {
+                echo "Utdanning";
+            } else {
+                echo "Education";
+            }
+          ?></span>
           <div class="education_flex">
             <?php foreach($data["education"] as $education): ?>
-              <div class="<?php echo $education["slug"]; ?>">
-                <p class="mini_header"><?php echo $education["title"]; ?></p>
-                <p class="mini_header_where"><?php echo $education["where"]; ?></p>
-                <p class="mini_header_date"><?php echo $education["when"]; ?></p>
-                <?php if($education["grade"] != null): ?>
-                  <p class="mini_header_grade"><?php echo $education["grade"]; ?></p>
+              <div class="<?php echo $education[$lang_slug]["slug"]; ?>">
+                <p class="mini_header"><?php echo $education[$lang_slug]["title"]; ?></p>
+                <p class="mini_header_where"><?php echo $education[$lang_slug]["where"]; ?></p>
+                <p class="mini_header_date"><?php echo $education[$lang_slug]["when"]; ?></p>
+                <?php if($education[$lang_slug]["grade"] != null): ?>
+                  <p class="mini_header_grade"><?php echo $education[$lang_slug]["grade"]; ?></p>
                 <?php endif; ?>
-                <?php if($education["script"] != null): ?>
-                    <script type="text/javascript"><?php echo $education["script"]; ?></script>
+                <?php if($education[$lang_slug]["script"] != null): ?>
+                    <script type="text/javascript"><?php echo $education[$lang_slug]["script"]; ?></script>
                 <?php endif; ?>
               </div>
             <?php endforeach; ?>
           </div>
         </div>
         <div class="skills">
-          <span class="small_header">Ferdigheter</span>
+          <span class="small_header"><?php
+            if($norwegian) {
+                echo "Ferdigheter";
+            } else {
+                echo "Skills";
+            }
+          ?></span>
           <div class="skill_list">
-            <?php foreach($skills as $skill): ?>
+            <?php foreach($skills[$lang_slug] as $skill): ?>
               <p class="mini_header"><?php echo $skill; ?></p>
               <ul>
-                <?php foreach($data["skills"][$skill] as $description): ?>
+                <?php foreach($data["skills"][$lang_slug][$skill] as $description): ?>
                   <li><?php echo $description; ?></li>
                 <?php endforeach; ?>
               </ul>
@@ -96,6 +121,19 @@
           </div>
           <a href="javascript:window.print()" class="print">Last ned som PDF</a>
         </div>
+        <a href="?lang=<?php
+          if($norwegian) {
+            echo "no";
+          } else {
+            echo "en";
+          }
+        ?>" id="language-setting"><?php
+          if($norwegian) {
+            echo "Norsk";
+          } else {
+            echo "English";
+          }
+        ?></a>
       </div>
     </div>
   </body>
