@@ -1,127 +1,249 @@
 {
-	"name": "Kasper Rynning-Tønnesen",
-	"email": "kasper@kasperrt.no",
-	"phone": "+47 97 74 04 27",
-	"image": "me.jpg",
-	"background": "background:linear-gradient(rgb(113, 195, 135) 90%, rgb(234, 97, 97) 50%) fixed",
-	"website": "kasperrt.no",
-	"born": "29. august 1993",
-	"address": "Trondheim, Norge",
-	"work": [{
-	        "slug": "zoffcrossplatform",
-	        "name": "Zoff - Cross-platform",
-	        "when_where": "Trondheim 2018",
-	        "title": "Utvikler",
-	        "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
-	    },{
-			"slug": "knowit",
-			"name": "Knowit Experience",
-			"when_where": "Oslo 2017 og Oslo 2018",
-			"title": "Sommerjobb - systemutvikler",
-			"description": "2017 - Utviklet pilotapp for <a href='https://www.los.no/'>LOS</a> i Xamarin forms<br>"
-		},
-		{
-			"slug": "uninett",
-			"name": "UNINETT",
-			"when_where": "Trondheim 2016 - 2017",
-			"title": "Sommerjobb & Deltidsutvikler",
-			"description": "Utviklet diverse autentiseringsmoduler opp mot Dataporten for flere samarbeidsverktøy, og docker-iserte disse. Eksempler på autentiseringsmoduler laget er: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> og <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
-		},
-		{
-			"slug": "studass",
-			"name": "NTNU",
-			"when_where": "Trondheim 2017",
-			"title": "Studieassistent",
-			"description": "Studieassistent i <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> ved IDI NTNU."
-		},
-		{
-			"slug": "gurutjenesten",
-			"name": "Gurutjenesten",
-			"when_where": "Trondheim 2015 - Nå",
-			"title": "IT-Service",
-			"description": "Hjelpe studenter med reformatering og installasjon av operativsystemer."
-		},
-		{
-			"slug": "zoff",
-			"name": "Zoff",
-			"when_where": "Trondheim 2014 - Nå",
-			"title": "Utvikler & Oppfinner",
-			"description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube og SoundCloud API i front-end for henting og avspilling av videoer/sanger, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som backend og database, og har socket.io som websocket-tjeneste. <br><br>Har innebygd integrasjon for eksportering og importer til og fra YouTube, SoundCloud og Spotify. Spesifikk støtte for innebygd-spiller med begrenset funksjonalitet."
-		},
-		{
-			"slug": "sh-arkitekter",
-			"name": "Stein Halvorsen Arkitekter AS",
-			"when_where": "Trondheim 2013-2014",
-			"title": "Utvikler",
-			"description": "Utviklet bedriftsnettside for Stein Halvorsen Arkitekter (<a href='http://sh-arkitekter.no'>http://sh-arkitekter.no</a>)."
-		}
-	],
-	"education": [{
-			"slug": "master",
-			"title": "Master i Informatikk",
-			"where": "NTNU - Trondheim",
-            "when": "2017 - nå",
-			"script": "var end = new Date('12/01/2018 23:59');var _second = 1000;var _minute = _second * 60;var _hour = _minute * 60;var _day = _hour * 24;var timer;function showRemaining() {var now = new Date();var distance = end - now;if (distance < 0) {clearInterval(timer);document.getElementById('countdown').remove();return;}var days = Math.floor(distance / _day);var hours = Math.floor((distance % _day) / _hour);var minutes = Math.floor((distance % _hour) / _minute);var seconds = Math.floor((distance % _minute) / _second);document.getElementById('countdown').innerHTML = 'Leveres om: ';document.getElementById('countdown').innerHTML += pad(days) + ' dager ';document.getElementById('countdown').innerHTML += pad(hours) + ' timer ';document.getElementById('countdown').innerHTML += pad(minutes) + ' minutter ';document.getElementById('countdown').innerHTML += pad(seconds) + ' sekunder';}function pad(n) {if(n < 10) {return '0' + n;}return n;}if(document.getElementById('countdown')) console.log('');else {document.getElementsByClassName('master')[0].innerHTML +='<p id=\"countdown\" style=\"margin-top: -16px;margin-bottom: 16px;\"></p>';}timer = setInterval(showRemaining, 500);",
-			"grade": null
-		},
-		{
-			"slug": "bachelor",
-			"title": "Bachelor i Informatikk",
-			"where": "NTNU - Trondheim",
-            "when": "2013 - 2016",
-			"grade": "Snittkarakter - C",
-			"script": null
-		},
-		{
-			"slug": "fhs",
-			"title": "Vind og Vatten",
-			"where": "Nordfjord Folkehøgskule - Gloppen",
-            "when": "2012 - 2013",
-			"grade": null,
-			"script": null
-		},
-		{
-			"slug": "vgs",
-			"title": "Studiespesialisering",
-			"where": "Rosenvilde Videregående - Bærum",
-            "when": "2009 - 2012",
-			"grade": null,
-			"script": null
-		}
-	],
-	"skills": {
-		"Teknologier": [
-			"JavaScript, PHP, HTML5, CSS3 (siden 2011)",
-			"Objektorienter Programmering og Java (siden 2014)",
-			"Databaser: MySQL (siden 2012), MongoDB (siden 2014)",
-			"Andre språk: Python (siden 2013), C# (siden 2017)",
-			"Teknologier: chromecast receiver/sender apps, react, react-native, xamarin forms, cordova"
-		],
-		"Språk": [
-			"Norsk     - Flytende, skriftlig og muntlig",
-			"Engelsk   - Flytende skriftlig og muntlig",
-			"Fransk    - Forstår noe"
-		]
-	},
-	"references": [{
-			"slug": "knowit_ref",
-			"name": "Knowit Experience • Jan Petter Hoel",
-			"email": "jan.petter.hoel@knowit.no"
-		},
-		{
-			"slug": "uninett_ref",
-			"name": "UNINETT • Andreas Åkre Solberg",
-			"email": "andreas.solberg@uninett.no"
-		},
-		{
-			"slug": "gurutjenesten_ref",
-			"name": "Gurutjenesten • Alf Andreas Høiseth",
-			"email": "alfh@ntnu.no"
-		},
-		{
-			"slug": "sh-arkitekter_ref",
-			"name": "SH-Arkitekter • Asgeir Stordal",
-			"email": "asgeir@sh-arkitekter.no"
-		}
-	]
+       "name": "Kasper Rynning-Tønnesen",
+       "email": "kasper@kasperrt.no",
+       "phone": "+47 97 74 04 27",
+       "image": "me.jpg",
+       "background": "background:linear-gradient(rgb(113, 195, 135) 90%, rgb(234, 97, 97) 50%) fixed",
+       "website": "kasperrt.no",
+       "born": "29. august 1993",
+       "address": {
+              "no": "Trondheim, Norge",
+              "en": "Trondheim, Norway"
+       },
+       "work": [{
+              "no": {
+                     "slug": "zoffcrossplatform",
+                     "name": "Zoff - Cross-platform",
+                     "when_where": "Trondheim 2018",
+                     "title": "Utvikler",
+                     "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
+              },
+              "en": {
+                     "slug": "zoffcrossplatform",
+                     "name": "Zoff - Cross-platform",
+                     "when_where": "Trondheim 2018",
+                     "title": "Developer",
+                     "description": "Developed a React-Native cross-platform application for Zoff, for for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> and <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
+              }
+              },{
+                     "no": {
+                            "slug": "knowit",
+                            "name": "Knowit Experience",
+                            "when_where": "Oslo 2017 og Oslo 2018",
+                            "title": "Sommerjobb - systemutvikler",
+                            "description": "2017 - Utviklet pilotapp for <a href='https://www.los.no/'>LOS</a> i Xamarin forms<br>"
+                     },
+                     "en": {
+                            "slug": "knowit",
+                            "name": "Knowit Experience",
+                            "when_where": "Oslo 2017 and Oslo 2018",
+                            "title": "Summer internship - system develper",
+                            "description": "2017 - Developed a pilot for <a href='https://www.los.no/'>LOS</a> in Xamarin forms<br>"
+                     }
+              },
+              {
+                     "no": {
+                            "slug": "uninett",
+                            "name": "UNINETT",
+                            "when_where": "Trondheim 2016 - 2017",
+                            "title": "Sommerjobb & Deltidsutvikler",
+                            "description": "Utviklet diverse autentiseringsmoduler opp mot Dataporten for flere samarbeidsverktøy, og docker-iserte disse. Eksempler på autentiseringsmoduler laget er: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> og <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
+                     },
+                     "en": {
+                            "slug": "uninett",
+                            "name": "UNINETT",
+                            "when_where": "Trondheim 2016 - 2017",
+                            "title": "Summer internship & Parttime developer",
+                            "description": "Developed a range of authentication modules with Dataporten for a range of collaborative tools and dockerized these. Examples are: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> and <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
+                     }
+              },
+              {
+                     "no": {
+                            "slug": "studass",
+                            "name": "NTNU",
+                            "when_where": "Trondheim 2017",
+                            "title": "Studieassistent",
+                            "description": "Studieassistent i <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> ved IDI NTNU."
+                     },
+                     "en": {
+                            "slug": "studass",
+                            "name": "NTNU",
+                            "when_where": "Trondheim 2017",
+                            "title": "Studie assistant",
+                            "description": "Studie assistant in <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> at IDI NTNU."
+                     }
+              },
+              {
+                     "no": {
+                            "slug": "gurutjenesten",
+                            "name": "Gurutjenesten",
+                            "when_where": "Trondheim 2015 - Nå",
+                            "title": "IT-Service",
+                            "description": "Hjelpe studenter med reformatering og installasjon av operativsystemer."
+                     },
+                     "en": {
+                            "slug": "gurutjenesten",
+                            "name": "Gurutjenesten",
+                            "when_where": "Trondheim 2015 - Now",
+                            "title": "IT-Service",
+                            "description": "Helped students with formating and installing OS's."
+                     }
+              },
+              {
+                     "no": {
+                            "slug": "zoff",
+                            "name": "Zoff",
+                            "when_where": "Trondheim 2014 - Nå",
+                            "title": "Utvikler & Oppfinner",
+                            "description": "Utviklet musikktjenesten Zoff (<a href='https://zoff.me'>https://zoff.me</a>). Benytter seg av YouTube og SoundCloud API i front-end for henting og avspilling av videoer/sanger, og har custom Chromecast-app for integrert casting. Bruker NodeJS med MongoDB som backend og database, og har socket.io som websocket-tjeneste. <br><br>Har innebygd integrasjon for eksportering og importer til og fra YouTube, SoundCloud og Spotify. Spesifikk støtte for innebygd-spiller med begrenset funksjonalitet."
+                     },
+                     "en": {
+                            "slug": "zoff",
+                            "name": "Zoff",
+                            "when_where": "Trondheim 2014 - Now",
+                            "title": "Developer & Inventor",
+                            "description": "Developed the shared musicservice Zoff (<a href='https://zoff.me'>https://zoff.me</a>). It uses the YouTube and SoundCloud API for fetching and playing music/videos, and has a custom Chromecast-application for integrated casting. Uses NodeJS and MongoDB, with socket.io <br><br>Zoff has built in integration for exporting and importing from and to YouTube, SoundCloud and Spotify. Custom created embedded player with limited functionality."
+                     }
+              },
+              {
+                     "no": {
+                            "slug": "sh-arkitekter",
+                            "name": "Stein Halvorsen Arkitekter AS",
+                            "when_where": "Trondheim 2013-2014",
+                            "title": "Utvikler",
+                            "description": "Utviklet bedriftsnettside for Stein Halvorsen Arkitekter (<a href='http://sh-arkitekter.no'>http://sh-arkitekter.no</a>)."
+                     },
+                     "en": {
+                            "slug": "sh-arkitekter",
+                            "name": "Stein Halvorsen Arkitekter AS",
+                            "when_where": "Trondheim 2013-2014",
+                            "title": "Developer",
+                            "description": "Developed website for the architecture firm Stein Halvorsen Arkitekter (<a href='http://sh-arkitekter.no'>http://sh-arkitekter.no</a>)."
+                     }
+              }
+       ],
+       "education": [{
+              "no": {
+                     "slug": "master",
+                     "title": "Master i Informatikk",
+                     "where": "NTNU - Trondheim",
+                     "when": "2017 - nå",
+                     "script": "var end = new Date('12/01/2018 23:59');var _second = 1000;var _minute = _second * 60;var _hour = _minute * 60;var _day = _hour * 24;var timer;function showRemaining() {var now = new Date();var distance = end - now;if (distance < 0) {clearInterval(timer);document.getElementById('countdown').remove();return;}var days = Math.floor(distance / _day);var hours = Math.floor((distance % _day) / _hour);var minutes = Math.floor((distance % _hour) / _minute);var seconds = Math.floor((distance % _minute) / _second);document.getElementById('countdown').innerHTML = 'Leveres om: ';document.getElementById('countdown').innerHTML += pad(days) + ' dager ';document.getElementById('countdown').innerHTML += pad(hours) + ' timer ';document.getElementById('countdown').innerHTML += pad(minutes) + ' minutter ';document.getElementById('countdown').innerHTML += pad(seconds) + ' sekunder';}function pad(n) {if(n < 10) {return '0' + n;}return n;}if(document.getElementById('countdown')) console.log('');else {document.getElementsByClassName('master')[0].innerHTML +='<p id=\"countdown\" style=\"margin-top: -16px;margin-bottom: 16px;\"></p>';}timer = setInterval(showRemaining, 500);",
+                     "grade": null
+              },
+              "en": {
+                     "slug": "master",
+                     "title": "Master in Informatikk",
+                     "where": "NTNU - Trondheim",
+                     "when": "2017 - now",
+                     "script": "var end = new Date('12/01/2018 23:59');var _second = 1000;var _minute = _second * 60;var _hour = _minute * 60;var _day = _hour * 24;var timer;function showRemaining() {var now = new Date();var distance = end - now;if (distance < 0) {clearInterval(timer);document.getElementById('countdown').remove();return;}var days = Math.floor(distance / _day);var hours = Math.floor((distance % _day) / _hour);var minutes = Math.floor((distance % _hour) / _minute);var seconds = Math.floor((distance % _minute) / _second);document.getElementById('countdown').innerHTML = 'Due: ';document.getElementById('countdown').innerHTML += pad(days) + ' dager ';document.getElementById('countdown').innerHTML += pad(hours) + ' hours ';document.getElementById('countdown').innerHTML += pad(minutes) + ' minutes ';document.getElementById('countdown').innerHTML += pad(seconds) + ' seconds';}function pad(n) {if(n < 10) {return '0' + n;}return n;}if(document.getElementById('countdown')) console.log('');else {document.getElementsByClassName('master')[0].innerHTML +='<p id=\"countdown\" style=\"margin-top: -16px;margin-bottom: 16px;\"></p>';}timer = setInterval(showRemaining, 500);",
+                     "grade": null
+              }
+       },
+       {
+              "no": {
+                     "slug": "bachelor",
+                     "title": "Bachelor i Informatikk",
+                     "where": "NTNU - Trondheim",
+                     "when": "2013 - 2016",
+                     "grade": "Snittkarakter - C",
+                     "script": null
+              },
+              "en": {
+                     "slug": "bachelor",
+                     "title": "Bachelor in Informatikk",
+                     "where": "NTNU - Trondheim",
+                     "when": "2013 - 2016",
+                     "grade": "Grade - C",
+                     "script": null
+              }
+       },
+       {
+              "no": {
+                     "slug": "fhs",
+                     "title": "Vind og Vatten",
+                     "where": "Nordfjord Folkehøgskule - Gloppen",
+                     "when": "2012 - 2013",
+                     "grade": null,
+                     "script": null
+              },
+              "en": {
+                     "slug": "fhs",
+                     "title": "Vind og Vatten",
+                     "where": "Nordfjord Folkehøgskule - Gloppen",
+                     "when": "2012 - 2013",
+                     "grade": null,
+                     "script": null
+              }
+       },
+       {
+              "no": {
+                     "slug": "vgs",
+                     "title": "Studiespesialisering",
+                     "where": "Rosenvilde Videregående - Bærum",
+                     "when": "2009 - 2012",
+                     "grade": null,
+                     "script": null
+              },
+              "en": {
+                     "slug": "vgs",
+                     "title": "Studiespesialisering",
+                     "where": "Rosenvilde Videregående - Bærum",
+                     "when": "2009 - 2012",
+                     "grade": null,
+                     "script": null
+              }
+       }
+],
+"skills": {
+       "no": {
+              "Teknologier": [
+                     "JavaScript, PHP, HTML5, CSS3 (siden 2011)",
+                     "Objektorienter Programmering og Java (siden 2014)",
+                     "Databaser: MySQL (siden 2012), MongoDB (siden 2014), ElasticSearch (since 2017)",
+                     "Andre språk: Python (siden 2013), C# (siden 2017)",
+                     "Teknologier: chromecast receiver/sender apps, react, react-native, xamarin forms, cordova"
+              ],
+              "Språk": [
+                     "Norsk     - Flytende, skriftlig og muntlig",
+                     "Engelsk   - Flytende skriftlig og muntlig",
+                     "Fransk    - Forstår noe"
+              ]
+       },
+       "en": {
+              "Technologies": [
+                     "JavaScript, PHP, HTML5, CSS3 (since 2011)",
+                     "Object oriented programming and Java (since 2014)",
+                     "Databases: MySQL (since 2012), MongoDB (since 2014), ElasticSearch (since 2017)",
+                     "Other languages: Python (since 2013), C# (since 2017)",
+                     "Other Technologies: chromecast receiver/sender apps, react, react-native, xamarin forms, cordova"
+              ],
+              "Languages": [
+                     "Norwegian - Fluent",
+                     "English   - Fluent",
+                     "French    - Very basic understanding"
+              ]
+       }
+},
+"references": [{
+       "slug": "knowit_ref",
+       "name": "Knowit Experience • Jan Petter Hoel",
+       "email": "jan.petter.hoel@knowit.no"
+},
+{
+       "slug": "uninett_ref",
+       "name": "UNINETT • Andreas Åkre Solberg",
+       "email": "andreas.solberg@uninett.no"
+},
+{
+       "slug": "gurutjenesten_ref",
+       "name": "Gurutjenesten • Alf Andreas Høiseth",
+       "email": "alfh@ntnu.no"
+},
+{
+       "slug": "sh-arkitekter_ref",
+       "name": "SH-Arkitekter • Asgeir Stordal",
+       "email": "asgeir@sh-arkitekter.no"
+}
+]
 }
