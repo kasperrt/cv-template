@@ -1,18 +1,18 @@
 <?php
-  $data = file_get_contents('data.json');
-  $data = json_decode($data, true);
-  $skills = array_keys($data["skills"]);
-
-  if(substr( $data["website"], 0, 4 ) === "http") {
-    $data["website_link"] = $data["website"];
-  } else {
-    $data["website_link"] = "http://" . $data["website"];
-  }
   $norwegian = true;
   $lang_slug = "no";
   if($_GET["lang"] == "en") {
       $norwegian = false;
       $lang_slug = "en";
+  }
+  $data = file_get_contents('data.json');
+  $data = json_decode($data, true);
+  $skills = array_keys($data["skills"][$lang_slug]);
+
+  if(substr( $data["website"], 0, 4 ) === "http") {
+    $data["website_link"] = $data["website"];
+  } else {
+    $data["website_link"] = "http://" . $data["website"];
   }
 
 ?>
@@ -100,7 +100,7 @@
           ?></span>
           <div class="skill_list">
             <?php print_r($skills); ?>
-            <?php foreach($skills[$lang_slug] as $skill): ?>
+            <?php foreach($skills as $skill): ?>
               <p class="mini_header"><?php echo $skill; ?></p>
               <ul>
                 <?php foreach($data["skills"][$lang_slug][$skill] as $description): ?>
