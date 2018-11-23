@@ -110,7 +110,13 @@
           </div>
         </div>
         <div class="referanser">
-          <span class="small_header">Referanser</span>
+          <span class="small_header"><?php
+            if($norwegian) {
+              echo "Referanser";
+            } else {
+              echo "References";
+            }
+          ?></span>
           <div class="referanser_flex">
             <?php foreach($data["references"] as $ref): ?>
               <div class="<?php echo $ref["slug"]; ?>">
