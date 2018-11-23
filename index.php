@@ -45,7 +45,7 @@
           </div>
           <div class="contact_bot">
             <i class="fa fa-calendar-o" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
-            <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"]; ?></span>
+            <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"][$lang_slug]; ?></span>
           </div>
         </div>
         <div class="portfolio">

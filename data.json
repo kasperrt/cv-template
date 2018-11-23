@@ -6,7 +6,10 @@
        "background": "background:linear-gradient(rgb(113, 195, 135) 90%, rgb(234, 97, 97) 50%) fixed",
        "website": "kasperrt.no",
        "born": "29. august 1993",
-       "address": "Trondheim, Norge",
+       "address": {
+              "no": "Trondheim, Norge",
+              "en": "Trondheim, Norway"
+       },
        "work": [{
               "no": {
                      "slug": "zoffcrossplatform",
