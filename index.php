@@ -99,6 +99,7 @@
             }
           ?></span>
           <div class="skill_list">
+            <?php print_r($skills); ?>
             <?php foreach($skills[$lang_slug] as $skill): ?>
               <p class="mini_header"><?php echo $skill; ?></p>
               <ul>
