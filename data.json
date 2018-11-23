@@ -84,7 +84,7 @@
                      "en": {
                             "slug": "gurutjenesten",
                             "name": "Gurutjenesten",
-                            "when_where": "Trondheim 2015 - Nå",
+                            "when_where": "Trondheim 2015 - Now",
                             "title": "IT-Service",
                             "description": "Helped students with formating and installing OS's."
                      }
@@ -100,7 +100,7 @@
                      "en": {
                             "slug": "zoff",
                             "name": "Zoff",
-                            "when_where": "Trondheim 2014 - Nå",
+                            "when_where": "Trondheim 2014 - Now",
                             "title": "Developer & Inventor",
                             "description": "Developed the shared musicservice Zoff (<a href='https://zoff.me'>https://zoff.me</a>). It uses the YouTube and SoundCloud API for fetching and playing music/videos, and has a custom Chromecast-application for integrated casting. Uses NodeJS and MongoDB, with socket.io <br><br>Zoff has built in integration for exporting and importing from and to YouTube, SoundCloud and Spotify. Custom created embedded player with limited functionality."
                      }
