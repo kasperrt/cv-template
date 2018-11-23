@@ -119,7 +119,13 @@
               </div>
             <?php endforeach; ?>
           </div>
-          <a href="javascript:window.print()" class="print">Last ned som PDF</a>
+          <a href="javascript:window.print()" class="print"><?php
+            if($norwegian) {
+              echo "Last ned som PDF";
+            } else {
+              echo "Save as PDF or print";
+            }
+          ?></a>
         </div>
         <a href="?lang=<?php
           if($norwegian) {
