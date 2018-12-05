@@ -13,14 +13,14 @@
        "work": [{
               "no": {
                      "slug": "zoffcrossplatform",
-                     "name": "Zoff - Cross-platform",
+                     "name": "Zoff - Cross-platform app",
                      "when_where": "Trondheim 2018",
                      "title": "Utvikler",
                      "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
               },
               "en": {
                      "slug": "zoffcrossplatform",
-                     "name": "Zoff - Cross-platform",
+                     "name": "Zoff - Cross-platform app",
                      "when_where": "Trondheim 2018",
                      "title": "Developer",
                      "description": "Developed a React-Native cross-platform application for Zoff, for for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> and <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
