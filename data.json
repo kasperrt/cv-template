@@ -206,8 +206,7 @@
               ],
               "Språk": [
                      "Norsk     - Flytende, skriftlig og muntlig",
-                     "Engelsk   - Flytende skriftlig og muntlig",
-                     "Fransk    - Forstår noe"
+                     "Engelsk   - Flytende skriftlig og muntlig"
               ]
        },
        "en": {
@@ -220,8 +219,7 @@
               ],
               "Languages": [
                      "Norwegian - Fluent",
-                     "English   - Fluent",
-                     "French    - Very basic understanding"
+                     "English   - Fluent"
               ]
        }
 },
