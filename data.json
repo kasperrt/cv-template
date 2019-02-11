@@ -11,20 +11,35 @@
               "en": "Trondheim, Norway"
        },
        "work": [{
-              "no": {
-                     "slug": "zoffcrossplatform",
-                     "name": "Zoff - Cross-platform app",
-                     "when_where": "Trondheim 2018",
-                     "title": "Utvikler",
-                     "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
-              },
-              "en": {
-                     "slug": "zoffcrossplatform",
-                     "name": "Zoff - Cross-platform app",
-                     "when_where": "Trondheim 2018",
-                     "title": "Developer",
-                     "description": "Developed a React-Native cross-platform application for Zoff, for for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> and <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
-              }
+                     "no": {
+                            "slug": "knowitexperience",
+                            "name": "Knowit Experience",
+                            "when_where": "Oslo 2019 - nå",
+                            "title": "Systemutvikler",
+                            "description": "Fastjobb i <a href='https://www.knowit.no/tjenester/experience/'>Knowit Experience</a> Oslo, som systemutvikler."
+                     },
+                     "en": {
+                            "slug": "knowitexperience",
+                            "name": "Knowit Experience",
+                            "when_where": "Oslo 2019 - now",
+                            "title": "System developer",
+                            "description": "Working as system developer at <a href='https://www.knowit.no/tjenester/experience/'>Knowit Experience</a> Oslo."
+                     }
+              },{
+                     "no": {
+                            "slug": "zoffcrossplatform",
+                            "name": "Zoff - Cross-platform app",
+                            "when_where": "Trondheim 2018",
+                            "title": "Utvikler",
+                            "description": "Utviklet React-Native cross-platform applikasjon for Zoff, for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> og <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
+                     },
+                     "en": {
+                            "slug": "zoffcrossplatform",
+                            "name": "Zoff - Cross-platform app",
+                            "when_where": "Trondheim 2018",
+                            "title": "Developer",
+                            "description": "Developed a React-Native cross-platform application for Zoff, for for <a href='https://itunes.apple.com/us/app/zoff/id1402037061?ls=1&mt=8'>iOS</a> and <a href='https://play.google.com/store/apps/details?id=zoff.me.zoff'>Android</a>."
+                     }
               },{
                      "no": {
                             "slug": "knowit",
