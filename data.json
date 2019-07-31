@@ -49,14 +49,14 @@
         "name": "PPFinans",
         "when_where": "Knowit Experience 2019",
         "title": "Utvikler",
-        "description": "Videreutvikling og vedlikehold av nettbank-løsning for PPFinans (<a href='https://ppfinans.no>https://ppfinans.no</a>), med teknologier som Angular 6 og EPiServer."
+        "description": "Videreutvikling og vedlikehold av nettbank-løsning for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>), med teknologier som Angular 6 og EPiServer."
       },
       "en": {
         "slug": "ppfinans",
         "name": "PPFinans",
         "when_where": "Knowit Experience 2019",
         "title": "Utvikler",
-        "description": "Maintenance, bugfixing and further development for PPFinans (<a href='https://ppfinans.no>https://ppfinans.no</a>) online banking, with technologies as Angular 6 and EPiServer"
+        "description": "Maintenance, bugfixing and further development for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>) online banking, with technologies as Angular 6 and EPiServer."
       }
     },
     {
