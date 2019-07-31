@@ -1,23 +1,23 @@
-@font-face{
-  font-family:alegreya;src:url('alegreya.ttf');
+@font-face {
+  font-family: alegreya;
+  src: url("alegreya.ttf");
 }
 
-body{
+body {
   margin: auto;
   height: 100vh;
-  background: linear-gradient( to bottom, #71C387 90%, #e8c872 50%);
+  background: linear-gradient(to bottom, #71c387 90%, #e8c872 50%);
   /*background: #71C387;*/
   background-attachment: fixed;
-
 }
 
 @page {
-    size: auto;   /* auto is the initial value */
-    margin: 0;  /* this affects the margin in the printer settings */
+  size: auto; /* auto is the initial value */
+  margin: 0; /* this affects the margin in the printer settings */
 }
 
-.container-content{
-  opacity:0;
+.container-content {
+  opacity: 0;
   -webkit-transition: opacity 1s ease;
   -moz-transition: opacity 1s ease;
   -o-transition: opacity 1s ease;
@@ -33,29 +33,29 @@ body{
   font-family: alegreya;
 }
 
-.print{
-  color:#de0000;
+.print {
+  color: #de0000;
   text-decoration: none;
   font-family: alegreya;
 }
 
-.container{
-  max-width:800px;
-  background:white;
-  margin:auto;
+.container {
+  max-width: 800px;
+  background: white;
+  margin: auto;
   margin-top: 40px;
-  margin-bottom:40px;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-bottom: 40px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 10px;
 }
 
-header{
+header {
   padding: 3rem 4rem;
   text-align: center;
   font-family: alegreya;
 }
 
-.me_picture{
+.me_picture {
   width: 150px;
   height: 150px;
   -webkit-border-radius: 150px;
@@ -65,42 +65,50 @@ header{
   background-position: center !important;
   background-size: 160% !important;
   margin: auto;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-.my_name{
+.my_name {
   font-size: 3rem;
 }
 
-.way_contact{
+.way_contact {
   font-family: alegreya;
   text-align: center;
-  width:82%;
-  font-size:1.4rem;
-  margin:auto;
+  width: 82%;
+  font-size: 1.4rem;
+  margin: auto;
 }
 
-.small_header{
+.small_header {
   font-family: alegreya;
   font-weight: bold;
 }
 
-.portfolio, .education, .skills, .referanser{
+.projects,
+.portfolio,
+.education,
+.skills,
+.referanser {
   text-align: center;
   border-top: 1px solid lightgrey;
-    font-size: 1.5rem;
-    margin: auto;
-    margin-top: 25px;
-    padding-top: 25px;
-    max-width: 600px;
-    font-family: alegreya;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 25px;
+  padding-top: 25px;
+  max-width: 600px;
+  font-family: alegreya;
 }
 
 .referanser {
   padding-bottom: 20px;
 }
 
-.portfolio div, .education div, .skills div, .referanser div{
+.projects div,
+.portfolio div,
+.education div,
+.skills div,
+.referanser div {
   font-size: 1rem;
   line-height: 1.4rem;
   text-align: left;
@@ -108,47 +116,49 @@ header{
   margin: auto;
 }
 
-.education div, .referanser div{
+.education div,
+.referanser div {
   text-align: center;
 }
 
-.portfolio a{
-  color:#de0000;
+.projects a,
+.portfolio a {
+  color: #de0000;
   text-decoration: none;
 }
 
-.fa{
+.fa {
   font-size: 13px !important;
-  color:grey;
+  color: grey;
 }
 
-.mini_header{
+.mini_header {
   margin-top: 10px;
   font-weight: bold;
-  margin-bottom:0px;
-}
-
-.mini_header_title{
-  margin-top:-18px;
-}
-
-.mini_header_date{
-  margin-top:0px;
-}
-
-.mini_header_where{
-  margin-top:0px;
   margin-bottom: 0px;
 }
 
-.mini_header_grade{
-  margin-top:-15px;
+.mini_header_title {
+  margin-top: -18px;
 }
 
-.done_divider{
-  width:40px;
-  border:none;
-  border-top:1px solid lightgrey;
+.mini_header_date {
+  margin-top: 0px;
+}
+
+.mini_header_where {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mini_header_grade {
+  margin-top: -15px;
+}
+
+.done_divider {
+  width: 40px;
+  border: none;
+  border-top: 1px solid lightgrey;
 }
 
 .education_flex {
@@ -158,42 +168,41 @@ header{
 }
 
 .education_flex div {
-    width: 50%;
+  width: 50%;
 }
 
-.intro{
-
-  margin-top:5px;
+.intro {
+  margin-top: 5px;
 }
 
-.contact_top{
-  padding-bottom:20px;
+.contact_top {
+  padding-bottom: 20px;
 }
 
-.contact_bottom{
-  padding-bottom:40px;
-  border-bottom:1px solid grey;
+.contact_bottom {
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
 }
 
-.padding10{
-  padding:0 10px;
+.padding10 {
+  padding: 0 10px;
 }
 
-.mail{
+.mail {
   text-decoration: none;
-  color:#de0000;
+  color: #de0000;
 }
 
-.phone{
+.phone {
 }
 
-.homepage{
-  color:#de0000;
+.homepage {
+  color: #de0000;
   text-decoration: none;
 }
 
-ul{
-  padding:0 0 0 20px;
+ul {
+  padding: 0 0 0 20px;
 }
 
 .referanser_flex {
@@ -206,34 +215,42 @@ ul{
   width: 50%;
 }
 
-
-@media only screen and (max-width: 736px) and (max-width:600px), only screen and (max-device-width: 736px){
-  .container{
-    max-width:100%;
+@media only screen and (max-width: 736px) and (max-width: 600px),
+  only screen and (max-device-width: 736px) {
+  .container {
+    max-width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .portfolio, .education, .skills, .referanser{
-    max-width:initial;
-    font-size:3rem;
+  .projects,
+  .portfolio,
+  .education,
+  .skills,
+  .referanser {
+    max-width: initial;
+    font-size: 3rem;
   }
 
-  .portfolio div, .education div, .skills div, .referanser div{
-    font-size:1rem;
-    line-height:initial;
+  .projects div,
+  .portfolio div,
+  .education div,
+  .skills div,
+  .referanser div {
+    font-size: 1rem;
+    line-height: initial;
   }
 
   .education_flex {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .education div {
     width: 100% !important;
   }
 
-  .fa{
-    padding-right:20px;
+  .fa {
+    padding-right: 20px;
   }
 
   .referanser_flex div {
@@ -241,13 +258,11 @@ ul{
   }
 }
 
-
-@media print
-{
-  body{
-    background:white;
+@media print {
+  body {
+    background: white;
   }
-  .print{
+  .print {
     display: none;
   }
 
@@ -255,6 +270,7 @@ ul{
     display: none;
   }
 
+  .projects,
   .portfolio {
     display: flex;
     flex-direction: row;
@@ -267,10 +283,12 @@ ul{
     display: none;
   }
 
+  .projects .small_header,
   .portfolio .small_header {
-    width: 100%
+    width: 100%;
   }
 
+  .projects div,
   .portfolio div {
     width: 50%;
   }
@@ -279,9 +297,9 @@ ul{
     display: none;
   }
 
-  .me_picture{
-    width:100px;
-    height:100px;
+  .me_picture {
+    width: 100px;
+    height: 100px;
     margin-bottom: 0px;
   }
 
@@ -289,16 +307,15 @@ ul{
     margin: 4px auto;
   }
 
-  .container{
+  .container {
     box-shadow: none;
     border-radius: 0;
-    margin-top:0;
+    margin-top: 0;
   }
 
   .education_flex {
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .education div {
@@ -313,8 +330,8 @@ ul{
     max-width: 85%;
   }
 
-  a{
-    color:black !important;
+  a {
+    color: black !important;
   }
 
   header {
@@ -339,8 +356,9 @@ ul{
     font-size: 1rem;
   }
 
+  .projects-div,
   .portfolio-div {
-        page-break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .languages {

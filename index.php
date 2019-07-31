@@ -48,6 +48,24 @@
             <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"][$lang_slug]; ?></span>
           </div>
         </div>
+        <div class="projects">
+          <span class="small_header"><?php
+            if($norwegian) {
+                echo "Prosjekter";
+            } else {
+                echo "Projects";
+            }
+          ?></span>
+          <?php foreach($data["projects"] as $work): ?>
+            <hr class="done_divider" />
+            <div class="<?php echo $work[$lang_slug]["slug"]; ?> projects-div">
+              <p class="mini_header"><?php echo $work[$lang_slug]["name"]; ?></p>
+              <p class="mini_header_date"><?php echo $work[$lang_slug]["when_where"]; ?></p>
+              <p class="mini_header_title"><?php echo $work[$lang_slug]["title"]; ?></p>
+  	          <p class="intro"><?php echo $work[$lang_slug]["description"]; ?></p>
+            </div>
+          <?php endforeach; ?>
+        </div>
         <div class="portfolio">
           <span class="small_header"><?php
             if($norwegian) {
