@@ -45,22 +45,6 @@
     },
     {
       "no": {
-        "slug": "bademiljo",
-        "name": "Bademiljø Forvaltning og kampanjehåndtering",
-        "when_where": "Knowit Experience 2019",
-        "title": "Utvikler",
-        "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
-      },
-      "en": {
-        "slug": "bademiljo",
-        "name": "Bademiljø",
-        "when_where": "Knowit Experience 2019",
-        "title": "Utvikler",
-        "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
-      }
-    },
-    {
-      "no": {
         "slug": "ppfinans",
         "name": "PPFinans",
         "when_where": "Knowit Experience 2019",
@@ -73,6 +57,22 @@
         "when_where": "Knowit Experience 2019",
         "title": "Utvikler",
         "description": "Maintenance, bugfixing and further development for PPFinans (<a href='https://ppfinans.no>https://ppfinans.no</a>) online banking, with technologies as Angular 6 and EPiServer"
+      }
+    },
+    {
+      "no": {
+        "slug": "bademiljo",
+        "name": "Bademiljø Forvaltning og kampanjehåndtering",
+        "when_where": "Knowit Experience 2019",
+        "title": "Utvikler",
+        "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
+      },
+      "en": {
+        "slug": "bademiljo",
+        "name": "Bademiljø",
+        "when_where": "Knowit Experience 2019",
+        "title": "Utvikler",
+        "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
       }
     },
     {

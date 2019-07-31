@@ -56,13 +56,13 @@
                 echo "Projects";
             }
           ?></span>
-          <?php foreach($data["projects"] as $work): ?>
+          <?php foreach($data["projects"] as $projects): ?>
             <hr class="done_divider" />
-            <div class="<?php echo $work[$lang_slug]["slug"]; ?> projects-div">
-              <p class="mini_header"><?php echo $work[$lang_slug]["name"]; ?></p>
-              <p class="mini_header_date"><?php echo $work[$lang_slug]["when_where"]; ?></p>
-              <p class="mini_header_title"><?php echo $work[$lang_slug]["title"]; ?></p>
-  	          <p class="intro"><?php echo $work[$lang_slug]["description"]; ?></p>
+            <div class="<?php echo $projects[$lang_slug]["slug"]; ?> projects-div">
+              <p class="mini_header"><?php echo $projects[$lang_slug]["name"]; ?></p>
+              <p class="mini_header_date"><?php echo $projects[$lang_slug]["when_where"]; ?></p>
+              <p class="mini_header_title"><?php echo $projects[$lang_slug]["title"]; ?></p>
+  	          <p class="intro"><?php echo $projects[$lang_slug]["description"]; ?></p>
             </div>
           <?php endforeach; ?>
         </div>
