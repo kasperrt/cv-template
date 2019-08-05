@@ -109,7 +109,7 @@ header {
 .education div,
 .skills div,
 .referanser div {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.4rem;
   text-align: left;
   width: 95%;
@@ -235,10 +235,13 @@ ul {
   .projects div,
   .portfolio div,
   .education div,
-  .skills div,
-  .referanser div {
+  .skills div {
     font-size: 1rem;
     line-height: initial;
+  }
+
+  .referanser div {
+    font-size: 2rem;
   }
 
   .education_flex {
