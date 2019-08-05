@@ -112,7 +112,7 @@ header {
   font-size: 1rem;
   line-height: 1.4rem;
   text-align: left;
-  width: 85%;
+  width: 95%;
   margin: auto;
 }
 
@@ -347,15 +347,11 @@ ul {
     font-size: 2rem;
   }
 
-  .skills {
-    margin-top: 20%;
-    page-break-inside: avoid;
-  }
-
   .way_contact {
     font-size: 1rem;
   }
 
+  .skills,
   .projects-div,
   .portfolio-div {
     page-break-inside: avoid;
