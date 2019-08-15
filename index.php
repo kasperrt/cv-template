@@ -34,7 +34,7 @@
     <div class="container">
       <div class="container-content">
         <header>
-          <div class="me_picture" style="background: url('<?php echo $data["image"]; ?>') no-repeat;"></div>
+          <img class="me_picture" src="<?php echo $data["image"]; ?>">
           <span class="my_name"><?php echo $data["name"]; ?></span>
 
         </header>
