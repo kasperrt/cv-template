@@ -29,6 +29,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.json-language {
+  left: 0; 
+}
+
 .print {
   color: #de0000;
   text-decoration: none;
