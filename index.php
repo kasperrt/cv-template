@@ -35,7 +35,7 @@
       <div class="container-content">
         <div class="flex-container-for-print">
           <img class="me_picture print-picture" src="<?php echo $data["image"]; ?>">
-          <div class="flex-container-inner-for-print>
+          <div class="flex-container-inner-for-print">
             <header>
               <img class="me_picture desktop-picture" src="<?php echo $data["image"]; ?>">
               <span class="my_name"><?php echo $data["name"]; ?></span>
