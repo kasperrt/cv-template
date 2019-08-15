@@ -48,6 +48,10 @@ body {
   border-radius: 10px;
 }
 
+.me_picture.print-picture {
+  display:none;
+}
+
 header {
   padding: 3rem 4rem;
   text-align: center;
@@ -290,6 +294,15 @@ ul {
     display: none;
   }
 
+  .me_picture.desktop-picture {
+    display:none;
+  }
+
+  .me_picture.print-picture {
+    display: block;
+    margin: 0 20px;
+  }
+
   .projects div,
   .portfolio div,
   .education div,
@@ -375,6 +388,14 @@ ul {
 
   .way_contact {
     font-size: 1rem;
+    width: 100%;
+  }
+
+  .flex-container-for-print {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills,
