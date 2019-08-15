@@ -152,6 +152,7 @@
             }
           ?></a>
         </div>
+        <a href="/data.json" id="language-setting" class="json-language">JSON</a>
         <a href="?lang=<?php
           if($norwegian) {
             echo "en";
