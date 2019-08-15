@@ -1,4 +1,3 @@
-
 body {
   margin: auto;
   height: 100vh;
@@ -297,6 +296,7 @@ ul {
   .skills div,
   .referanser div {
     font-size: 0.75rem;
+    margin: initial;
   }
 
   .projects .small_header,
@@ -307,6 +307,11 @@ ul {
   .projects div,
   .portfolio div {
     width: 50%;
+  }
+
+  .education div{
+    max-width: 600px;
+    margin: auto;
   }
 
   .intro {
@@ -332,6 +337,11 @@ ul {
   .education_flex {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .education div, 
+  .referanser div {
+    text-align: left;
   }
 
   .education div {
