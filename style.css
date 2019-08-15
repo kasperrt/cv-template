@@ -400,7 +400,8 @@ ul {
 
   .skills,
   .projects-div,
-  .portfolio-div {
+  .portfolio-div,
+  .education {
     page-break-inside: avoid;
   }
 
