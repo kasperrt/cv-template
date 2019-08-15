@@ -22,7 +22,7 @@
     <title>CV Kasper Rynning-Tønnesen</title>
     <link rel="stylesheet" href="style.css" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript">
       window.addEventListener("load", function(){
         document.getElementsByClassName("container-content")[0].style.opacity = 1;
