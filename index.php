@@ -33,20 +33,24 @@
   <body style="<?php echo $data["background"]; ?>">
     <div class="container">
       <div class="container-content">
-        <header>
-          <img class="me_picture" src="<?php echo $data["image"]; ?>">
-          <span class="my_name"><?php echo $data["name"]; ?></span>
-
-        </header>
-        <div class="way_contact">
-          <div class="contact_top">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="mail padding10" href="mailto:<?php echo $data["email"]; ?>"><?php echo $data["email"]; ?></a>
-            <i class="fa fa-phone" aria-hidden="true"></i><span class="phone padding10"><?php echo $data["phone"]; ?></span>
-          </div>
-          <div class="contact_bot">
-            <i class="fa fa-globe" aria-hidden="true"></i><a class="homepage padding10" href="<?php echo $data["website_link"]; ?>"><?php echo $data["website"]; ?></a>
-            <i class="fa fa-calendar-o" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
-            <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"][$lang_slug]; ?></span>
+        <div class="flex-container-for-print">
+          <img class="me_picture print-picture" src="<?php echo $data["image"]; ?>">
+          <div class="flex-container-inner-for-print>
+            <header>
+              <img class="me_picture desktop-picture" src="<?php echo $data["image"]; ?>">
+              <span class="my_name"><?php echo $data["name"]; ?></span>
+            </header>
+            <div class="way_contact">
+              <div class="contact_top">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="mail padding10" href="mailto:<?php echo $data["email"]; ?>"><?php echo $data["email"]; ?></a>
+                <i class="fa fa-phone" aria-hidden="true"></i><span class="phone padding10"><?php echo $data["phone"]; ?></span>
+              </div>
+              <div class="contact_bot">
+                <i class="fa fa-globe" aria-hidden="true"></i><a class="homepage padding10" href="<?php echo $data["website_link"]; ?>"><?php echo $data["website"]; ?></a>
+                <i class="fa fa-calendar-o" aria-hidden="true"></i><span class="born padding10"><?php echo $data["born"]; ?></span>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><span class="adress padding10"><?php echo $data["address"][$lang_slug]; ?></span>
+              </div>
+            </div>
           </div>
         </div>
         <div class="projects">
