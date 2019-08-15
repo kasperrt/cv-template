@@ -52,6 +52,8 @@ body {
 header {
   padding: 3rem 4rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
@@ -59,6 +61,7 @@ header {
 .me_picture {
   width: 150px;
   height: 150px;
+  object-fit: cover;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   border-radius: 150px;
@@ -280,12 +283,20 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
   }
 
   .done_divider {
     display: none;
+  }
+
+  .projects div,
+  .portfolio div,
+  .education div,
+  .skills div,
+  .referanser div {
+    font-size: 0.75rem;
   }
 
   .projects .small_header,
