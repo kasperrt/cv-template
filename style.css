@@ -48,6 +48,7 @@ body {
 header {
   padding: 3rem 4rem;
   text-align: center;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -78,7 +79,7 @@ header {
 
 .small_header {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .projects,
@@ -109,6 +110,7 @@ header {
   line-height: 1.4rem;
   text-align: left;
   width: 95%;
+  font-weight: 300;
   margin: auto;
 }
 
@@ -130,7 +132,7 @@ header {
 
 .mini_header {
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 0px;
 }
 
