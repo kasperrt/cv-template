@@ -204,38 +204,6 @@
         "title": "Summer internship & Parttime developer",
         "description": "Developed a range of authentication modules with Dataporten for a range of collaborative tools and dockerized these. Examples are: <a href='https://github.com/UNINETT/simplesamlphp-module-dataportenoauth2'>SimpleSAML2 Dataporten</a>, <a href='https://github.com/UNINETT/dataporten-wordpress-plugin'>Dataporten WordPress Plugin</a> and <a href='https://github.com/UNINETT/omniauth-dataporten'>OmniAuth Dataporten</a>"
       }
-    },
-    {
-      "no": {
-        "slug": "studass",
-        "name": "NTNU",
-        "when_where": "Trondheim 2017",
-        "title": "Studieassistent",
-        "description": "Studieassistent i <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> ved IDI NTNU."
-      },
-      "en": {
-        "slug": "studass",
-        "name": "NTNU",
-        "when_where": "Trondheim 2017",
-        "title": "Studie assistant",
-        "description": "Studie assistant in <a href='https://www.ntnu.no/studier/emner/IT1901'>IT1901</a> at IDI NTNU."
-      }
-    },
-    {
-      "no": {
-        "slug": "gurutjenesten",
-        "name": "Gurutjenesten",
-        "when_where": "Trondheim 2015 - Nå",
-        "title": "IT-Service",
-        "description": "Hjelpe studenter med reformatering og installasjon av operativsystemer."
-      },
-      "en": {
-        "slug": "gurutjenesten",
-        "name": "Gurutjenesten",
-        "when_where": "Trondheim 2015 - Now",
-        "title": "IT-Service",
-        "description": "Helped students with formating and installing OS's."
-      }
     }
   ],
   "education": [
