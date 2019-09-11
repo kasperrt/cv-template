@@ -32,7 +32,7 @@
   </head>
   <body style="<?php echo $data["background"]; ?>">
     <div class="container">
-      <div class="container-content">
+      <div class="container-content" style="opacity:1;">
         <div class="flex-container-for-print">
           <img class="me_picture print-picture" src="<?php echo $data["image"]; ?>">
           <div class="flex-container-inner-for-print">
