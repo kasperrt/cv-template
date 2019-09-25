@@ -48,14 +48,14 @@
         "slug": "ppfinans",
         "name": "PPFinans",
         "when_where": "Knowit Experience 2019",
-        "title": "Utvikler",
+        "title": "Techlead & Utvikler",
         "description": "Videreutvikling og vedlikehold av nettbank-løsning for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>), med teknologier som Angular 6 og EPiServer."
       },
       "en": {
         "slug": "ppfinans",
         "name": "PPFinans",
         "when_where": "Knowit Experience 2019",
-        "title": "Developer",
+        "title": "Techlead & Developer",
         "description": "Maintenance, bugfixing and further development for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>) online banking, with technologies as Angular 6 and EPiServer."
       }
     },
@@ -64,14 +64,14 @@
         "slug": "bademiljo",
         "name": "Bademiljø Forvaltning og kampanjehåndtering",
         "when_where": "Knowit Experience 2019",
-        "title": "Utvikler",
+        "title": "Techlead & Utvikler",
         "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
       },
       "en": {
         "slug": "bademiljo",
         "name": "Bademiljø",
         "when_where": "Knowit Experience 2019",
-        "title": "Developer",
+        "title": "Techlead & Developer",
         "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
       }
     },
