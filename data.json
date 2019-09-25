@@ -29,18 +29,18 @@
     },
     {
       "no": {
-        "slug": "rikstoto",
-        "name": "Rikstoto Xamarin WebView og Analytics",
+        "slug": "bademiljo",
+        "name": "Bademiljø Forvaltning og kampanjehåndtering",
         "when_where": "Knowit Experience 2019",
-        "title": "Utvikler",
-        "description": "Var inne og bistod med build-pipeline og integrering av Analytics i WebView i Xamarin."
+        "title": "Techlead & Utvikler",
+        "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
       },
       "en": {
-        "slug": "rikstoto",
-        "name": "Rikstoto Xamairn WebView and Analytics",
+        "slug": "bademiljo",
+        "name": "Bademiljø",
         "when_where": "Knowit Experience 2019",
-        "title": "Developer",
-        "description": "Contributed with build-pipeline and integration of Analytics in WebView in Xamarin."
+        "title": "Techlead & Developer",
+        "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
       }
     },
     {
@@ -61,18 +61,18 @@
     },
     {
       "no": {
-        "slug": "bademiljo",
-        "name": "Bademiljø Forvaltning og kampanjehåndtering",
+        "slug": "rikstoto",
+        "name": "Rikstoto Xamarin WebView og Analytics",
         "when_where": "Knowit Experience 2019",
-        "title": "Techlead & Utvikler",
-        "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
+        "title": "Utvikler",
+        "description": "Var inne og bistod med build-pipeline og integrering av Analytics i WebView i Xamarin."
       },
       "en": {
-        "slug": "bademiljo",
-        "name": "Bademiljø",
+        "slug": "rikstoto",
+        "name": "Rikstoto Xamairn WebView and Analytics",
         "when_where": "Knowit Experience 2019",
-        "title": "Techlead & Developer",
-        "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
+        "title": "Developer",
+        "description": "Contributed with build-pipeline and integration of Analytics in WebView in Xamarin."
       }
     },
     {
