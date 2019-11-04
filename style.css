@@ -25,17 +25,17 @@ body {
   top: 0;
   right: 0;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .json-language {
-  left: 0; 
+  left: 0;
 }
 
 .print {
   color: #de0000;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
 }
 
 .me_picture.print-picture {
-  display:none;
+  display: none;
 }
 
 header {
@@ -58,7 +58,7 @@ header {
   display: flex;
   flex-direction: column;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .me_picture {
@@ -80,7 +80,7 @@ header {
 }
 
 .way_contact {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   width: 82%;
   font-size: 1.2rem;
@@ -88,7 +88,7 @@ header {
 }
 
 .small_header {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -96,7 +96,8 @@ header {
 .portfolio,
 .education,
 .skills,
-.referanser {
+.referanser,
+.courses_and_certifications {
   text-align: center;
   border-top: 1px solid lightgrey;
   font-size: 1.2rem;
@@ -104,7 +105,7 @@ header {
   margin-top: 25px;
   padding-top: 25px;
   max-width: 600px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .referanser {
@@ -115,7 +116,8 @@ header {
 .portfolio div,
 .education div,
 .skills div,
-.referanser div {
+.referanser div,
+.courses_and_certifications div {
   font-size: 1rem;
   line-height: 1.4rem;
   text-align: left;
@@ -237,7 +239,8 @@ ul {
   .portfolio,
   .education,
   .skills,
-  .referanser {
+  .referanser,
+  .courses_and_certifications {
     max-width: initial;
     font-size: 3rem;
   }
@@ -245,7 +248,8 @@ ul {
   .projects div,
   .portfolio div,
   .education div,
-  .skills div {
+  .skills div,
+  .courses_and_certifications div {
     font-size: 1rem;
     line-height: initial;
   }
@@ -269,7 +273,7 @@ ul {
   .referanser_flex div {
     width: 100%;
   }
-  
+
   .my_name {
     font-size: 3rem;
   }
@@ -301,7 +305,7 @@ ul {
   }
 
   .me_picture.desktop-picture {
-    display:none;
+    display: none;
   }
 
   .me_picture.print-picture {
@@ -313,7 +317,8 @@ ul {
   .portfolio div,
   .education div,
   .skills div,
-  .referanser div {
+  .referanser div,
+  .courses_and_certifications div {
     font-size: 0.75rem;
     margin: initial;
   }
@@ -333,7 +338,7 @@ ul {
     /* margin: auto; */
   }
 
-  .education div{
+  .education div {
     max-width: 600px;
     margin: auto;
   }
@@ -345,7 +350,6 @@ ul {
   .projects .intro {
     display: block;
   }
-
 
   .me_picture {
     width: 100px;
@@ -368,7 +372,7 @@ ul {
     flex-wrap: wrap;
   }
 
-  .education div, 
+  .education div,
   .referanser div {
     text-align: left;
   }
@@ -417,11 +421,17 @@ ul {
   .skills,
   .projects-div,
   .portfolio-div,
-  .education, .portfolio {
+  .education,
+  .portfolio,
+  .courses_and_certifications {
     page-break-inside: avoid;
   }
 
-  .portfolio, .education, .skills, .referanser {
+  .portfolio,
+  .education,
+  .skills,
+  .referanser,
+  .courses_and_certifications {
     margin-top: 5px;
   }
 
@@ -429,16 +439,17 @@ ul {
     padding-top: 40px;
   }
 
-  .projects div, 
-  .portfolio div, 
-  .education div, 
-  .skills div, 
-  .referanser div {
+  .projects div,
+  .portfolio div,
+  .education div,
+  .skills div,
+  .referanser div,
+  .courses_and_certifications div {
     line-height: 1.2rem;
   }
 
   .mini_header {
-    line-height: 0.75rem; 
+    line-height: 0.75rem;
   }
 
   .small_header {
