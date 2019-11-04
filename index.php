@@ -9,7 +9,7 @@
   $data = json_decode($data, true);
   $skills = array_keys($data["skills"][$lang_slug]);
   $certifications = $data["certifications"][$lang_slug];
-  $courses = $data["certifications"][$lang_slug];
+  $courses = $data["courses"][$lang_slug];
 
   if(substr( $data["website"], 0, 4 ) === "http") {
     $data["website_link"] = $data["website"];

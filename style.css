@@ -179,6 +179,10 @@ header {
   flex-wrap: wrap;
 }
 
+.certifications_list ul {
+  padding: 0 3rem;
+}
+
 .education_flex div {
   width: 50%;
 }
