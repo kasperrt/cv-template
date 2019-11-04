@@ -134,7 +134,7 @@
             <div class="certifications_list">
               <ul>
                 <?php foreach($certifications as $certification): ?>
-                    <li><?php echo $certification; ?></li>
+                    <li><?php echo $certifications[$certification]; ?></li>
                 <?php endforeach; ?>
               </ul>
             </div>
@@ -151,7 +151,7 @@
             <div class="courses_list">
               <ul>
                 <?php foreach($courses as $course): ?>
-                    <li><?php echo $course; ?></li>
+                    <li><?php echo $courses[$course]; ?></li>
                 <?php endforeach; ?>
               </ul>
             </div>
