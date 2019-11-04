@@ -280,6 +280,20 @@
       }
     }
   ],
+  "courses": {
+    "no": [
+      "Episerver Commerce Fundamentals - 2019",
+      "EPiServer CMS utviklerkurs - 2019"
+    ],
+    "en": [
+      "Episerver Commerce Fundamentals - 2019",
+      "EPiServer CMS Fundamentals - 2019"
+    ]
+  },
+  "certifications": {
+    "no": ["Episerver Master Class - 2019"],
+    "en": ["Episerver Master Class - 2019"]
+  },
   "skills": {
     "no": {
       "Teknologier": [

@@ -113,6 +113,48 @@
             <?php endforeach; ?>
           </div>
         </div>
+        <div class="courses_and_certifications">
+          <span class="small_header"><?php
+            if($norwegian) {
+                echo "Kurs og Sertifiseringer";
+            } else {
+                echo "Courses and Certifications";
+            }
+          ?></span>
+          <?php if(count($certifications) > 0): ?>
+            <p class="mini_header"><?php
+            if($norwegian) {
+              echo "Sertifiserings";
+            } else {
+              echo "Certifications";
+            }
+            ?></p>
+            <div class="certifications_list">
+              <ul>
+                <?php foreach($certifications as $certification): ?>
+                    <li><?php echo $certification; ?></li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+          <?php endif; ?>
+          <br />
+          <?php if(count($courses) > 0): ?>
+            <p class="mini_header"><?php
+            if($norwegian) {
+              echo "Kurs";
+            } else {
+              echo "Courses";
+            }
+            ?></b>
+            <div class="courses_list">
+              <ul>
+                <?php foreach($courses as $course): ?>
+                    <li><?php echo $course; ?></li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+          <?php endif; ?>
+        </div>
         <div class="skills">
           <span class="small_header"><?php
             if($norwegian) {
