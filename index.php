@@ -150,6 +150,7 @@
             ?></b>
             <div class="courses_list">
               <ul>
+              <?php print_r($courses);print_r($certifications);?>
                 <?php foreach($courses as $course): ?>
                     <li><?php echo $courses[$course]; ?></li>
                 <?php endforeach; ?>
