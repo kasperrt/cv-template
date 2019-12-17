@@ -24,7 +24,7 @@
     <title>CV Kasper Rynning-Tønnesen</title>
     <link rel="stylesheet" href="style.css" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6bad311157.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <script type="text/javascript">
       window.addEventListener("load", function(){
