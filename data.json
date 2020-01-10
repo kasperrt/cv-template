@@ -258,42 +258,6 @@
         "grade": "Grade - C",
         "script": null
       }
-    },
-    {
-      "no": {
-        "slug": "fhs",
-        "title": "Vind og Vatten",
-        "where": "Nordfjord Folkehøgskule - Gloppen",
-        "when": "2012 - 2013",
-        "grade": null,
-        "script": null
-      },
-      "en": {
-        "slug": "fhs",
-        "title": "Vind og Vatten",
-        "where": "Nordfjord Folkehøgskule - Gloppen",
-        "when": "2012 - 2013",
-        "grade": null,
-        "script": null
-      }
-    },
-    {
-      "no": {
-        "slug": "vgs",
-        "title": "Studiespesialisering",
-        "where": "Rosenvilde Videregående - Bærum",
-        "when": "2009 - 2012",
-        "grade": null,
-        "script": null
-      },
-      "en": {
-        "slug": "vgs",
-        "title": "Studiespesialisering",
-        "where": "Rosenvilde Videregående - Bærum",
-        "when": "2009 - 2012",
-        "grade": null,
-        "script": null
-      }
     }
   ],
   "courses": {
