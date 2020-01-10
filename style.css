@@ -427,7 +427,8 @@ ul {
   .portfolio-div,
   .education,
   .portfolio,
-  .courses_and_certifications {
+  .courses_and_certifications,
+  .referanser {
     page-break-inside: avoid;
   }
 
