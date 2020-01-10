@@ -15,30 +15,46 @@
       "no": {
         "slug": "norsirk",
         "name": "NorsirkPortalen",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Utvikler",
         "description": "Jobbet med videreutivkling på NorsirkPortalen <a href='https://norsirkportalen.no'>https://norsirkportalen.no</a>, med teknologier innen EPiServer, Service Fabric, ReactJS og microservices."
       },
       "en": {
         "slug": "norsirk",
         "name": "NorsirkPortalen",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Developer",
         "description": "Worked on maintenance and further development for NorsirkPortalen (<a href='https://norsirkportalen.no'>https://norsirkportalen.no</a>), with tech such as EPiServer, Service Fabric, ReactJS and microservices."
       }
     },
     {
       "no": {
+        "slug": "bademiljo-budget",
+        "name": "Bademiljø Budsjettkalkulator og book-rørlegger",
+        "when_where": "Knowit Experience 2019 - 2020",
+        "title": "Techlead & Utvikler",
+        "description": "Utviklet ny budsjettkalkulator og booking av rørlegger/designer, med vue.js i frontend og EPiServer backend."
+      },
+      "en": {
+        "slug": "bademiljo-budget",
+        "name": "Bademiljø budget-calculator and book a plumber",
+        "when_where": "Knowit Experience 2019 - 2020",
+        "title": "Techlead & Developer",
+        "description": "Developed a new budgetcalculator and booking of plumber/designer, with vue.js frontend and EPiServer backend."
+      }
+    },
+    {
+      "no": {
         "slug": "bademiljo",
         "name": "Bademiljø Forvaltning og kampanjehåndtering",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Techlead & Utvikler",
         "description": "Drevet forvaltning for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) og utviklet ny kampanjehåndtering gjennom EPiServer, EPiServer Commerce, og EPiServer Promotion-engine."
       },
       "en": {
         "slug": "bademiljo",
         "name": "Bademiljø",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Techlead & Developer",
         "description": "Maintenance, bugfixing for Bademiljø (<a href='https://bademiljo.no'>https://bademiljo.no</a>) and developed a new way of handling promotions, through EPiServer, EPiServer Commerce, and EPiServer Promotion-engine."
       }
@@ -47,14 +63,14 @@
       "no": {
         "slug": "ppfinans",
         "name": "PPFinans",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Techlead & Utvikler",
         "description": "Videreutvikling og vedlikehold av nettbank-løsning for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>), med teknologier som Angular 6 og EPiServer."
       },
       "en": {
         "slug": "ppfinans",
         "name": "PPFinans",
-        "when_where": "Knowit Experience 2019",
+        "when_where": "Knowit Experience 2019 - 2020",
         "title": "Techlead & Developer",
         "description": "Maintenance, bugfixing and further development for PPFinans (<a href='https://ppfinans.no'>https://ppfinans.no</a>) online banking, with technologies as Angular 6 and EPiServer."
       }
