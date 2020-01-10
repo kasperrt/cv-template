@@ -316,11 +316,14 @@
     "no": {
       "Teknologier": [
         "JavaScript, PHP, HTML5, CSS3 (siden 2011)",
-        "Objektorienter Programmering og Java (siden 2014)",
+        "Objektorienter Programmering og Java (siden 2014), C# (siden 2017)",
         "Databaser: MySQL (siden 2012), MongoDB (siden 2014), ElasticSearch (since 2017)",
-        "Andre språk: Python (siden 2013), C# (siden 2017)",
+        "Python (siden 2013)",
         "EPiServer siden 2019",
-        "Teknologier: chromecast receiver/sender apps, react, react-native, xamarin forms, cordova"
+        "Chromecast: reciever/sender apps (siden 2015)",
+        "React (siden 2018) - react-native",
+        "Vue.js (siden 2019)",
+        "Andre teknologier, xamarin forms, cordova"
       ],
       "Språk": [
         "Norsk     - Flytende, skriftlig og muntlig",
@@ -330,11 +333,14 @@
     "en": {
       "Technologies": [
         "JavaScript, PHP, HTML5, CSS3 (since 2011)",
-        "Object oriented programming and Java (since 2014)",
+        "Java (since 2014), C# (since 2017)",
         "Databases: MySQL (since 2012), MongoDB (since 2014), ElasticSearch (since 2017)",
+        "Python (since 2013)",
         "EPiServer since 2019",
-        "Other languages: Python (since 2013), C# (since 2017)",
-        "Other Technologies: chromecast receiver/sender apps, react, react-native, xamarin forms, cordova"
+        "Chromecast: reciever/sender apps (since 2015)",
+        "React (since 2018) - react-native",
+        "Vue.js (since 2019)",
+        "Other technologies, xamarin forms, cordova"
       ],
       "Languages": ["Norwegian - Fluent", "English   - Fluent"]
     }
