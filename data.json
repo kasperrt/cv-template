@@ -127,14 +127,14 @@
       "no": {
         "slug": "winelottery",
         "name": "Vinlotteri-statistikk",
-        "when_where": "Oslo 2020",
+        "when_where": "Oslo - Knowit Experience 2020",
         "title": "Utvikler",
         "description": "Lagde frontend og backend for tracking av statistikk om vinn på vinlotteriet, <a href='https://lottis.vin'>lottis.vin</a> Knowit Oslo avholder 1 gang i uken. Laget i vue.js, express, MongoDB og 'en slags' Vipps integrasjon."
       },
       "en": {
         "slug": "winelottery",
         "name": "Wine-lottery statistics",
-        "when_where": "Oslo 2020",
+        "when_where": "Oslo - Knowit Experience 2020",
         "title": "Utvikler",
         "description": "Developed a statistics and logging-page for Knowits weekly wine-lottery, <a href='https://lottis.vin'>lottis.vin</a>. Made with vue.js, express, MongoDB, and 'sort of' Vipps integration."
       }
