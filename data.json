@@ -295,14 +295,15 @@
   "skills": {
     "no": {
       "Teknologier": [
-        "JavaScript, PHP, HTML5, CSS3 (siden 2011)",
-        "Objektorienter Programmering og Java (siden 2014), C# (siden 2017)",
-        "Databaser: MySQL (siden 2012), MongoDB (siden 2014), ElasticSearch (since 2017)",
-        "Python (siden 2013)",
-        "EPiServer siden 2019",
-        "Chromecast: reciever/sender apps (siden 2017, hobbybasis)",
-        "React (siden 2018) - react-native",
-        "Vue.js (siden 2019)",
+        "JavaScript, PHP, HTML5, CSS3 (2011)",
+        "Objektorienter Programmering og Java (2014), C# (2017)",
+        "Databaser: MySQL (2012), MongoDB (2014), ElasticSearch (2017)",
+        "Python (2013)",
+        "EPiServer (2019)",
+        "Chromecast - reciever/sender apps (2017)",
+        "React (2018) - react-native",
+        "Vue.js (2019)",
+        "Service-Workers (2019)",
         "Andre teknologier, xamarin forms, cordova"
       ],
       "Språk": [
@@ -312,14 +313,15 @@
     },
     "en": {
       "Technologies": [
-        "JavaScript, PHP, HTML5, CSS3 (since 2011)",
-        "Java (since 2014), C# (since 2017)",
-        "Databases: MySQL (since 2012), MongoDB (since 2014), ElasticSearch (since 2017)",
-        "Python (since 2013)",
-        "EPiServer since 2019",
-        "Chromecast: reciever/sender apps (since 2017, as a hobby)",
-        "React (since 2018) - react-native",
-        "Vue.js (since 2019)",
+        "JavaScript, PHP, HTML5, CSS3 (2011)",
+        "Java (2014), C# (2017)",
+        "Databases: MySQL (2012), MongoDB (2014), ElasticSearch (2017)",
+        "Python (2013)",
+        "EPiServer (2019)",
+        "Chromecast - reciever/sender apps (2017)",
+        "React (2018) - react-native",
+        "Vue.js (2019)",
+        "Service-Workers (2019)",
         "Other technologies, xamarin forms, cordova"
       ],
       "Languages": ["Norwegian - Fluent", "English   - Fluent"]
