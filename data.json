@@ -348,22 +348,26 @@
   "references": [
     {
       "slug": "knowit_ref",
-      "name": "Knowit Experience • Ine Mari Molteberg-Bøhn",
+      "company": "Knowit Experience",
+      "name": "Ine Mari Molteberg-Bøhn",
       "email": "Ine.Bohn@knowit.no"
     },
     {
       "slug": "uninett_ref",
-      "name": "UNINETT • Andreas Åkre Solberg",
+      "company": "UNINETT",
+      "name": "Andreas Åkre Solberg",
       "email": "andreas.solberg@uninett.no"
     },
     {
       "slug": "gurutjenesten_ref",
-      "name": "Gurutjenesten • Alf Andreas Høiseth",
+      "company": "Gurutjenesten",
+      "name": "Alf Andreas Høiseth",
       "email": "alfh@ntnu.no"
     },
     {
       "slug": "sh-arkitekter_ref",
-      "name": "SH-Arkitekter • Asgeir Stordal",
+      "company": "SH-Arkitekter",
+      "name": "Asgeir Stordal",
       "email": "asgeir@sh-arkitekter.no"
     }
   ]
