@@ -116,17 +116,10 @@
           </div>
         </div>
         <div class="courses_and_certifications">
-          <span class="small_header"><?php
-            if($norwegian) {
-                echo "Kurs og Sertifiseringer";
-            } else {
-                echo "Courses and Certifications";
-            }
-          ?></span>
           <?php if(count($certifications) > 0): ?>
             <p class="mini_header"><?php
             if($norwegian) {
-              echo "Sertifiserings";
+              echo "Sertifiseringer";
             } else {
               echo "Certifications";
             }
