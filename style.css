@@ -282,7 +282,6 @@ ul {
     font-size: 3rem;
   }
 }
-
 @media print {
   body {
     background: white;
@@ -291,8 +290,23 @@ ul {
     display: none;
   }
 
+  @page {
+    size: auto;
+    margin: 5mm;
+  }
+
   #language-setting {
     display: none;
+  }
+
+  .flex-container-for-print {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .projects .small_header {
+    margin-top: 10px;
+    padding-bottom: 35px;
   }
 
   .projects,
@@ -430,6 +444,20 @@ ul {
   .courses_and_certifications,
   .referanser {
     page-break-inside: avoid;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .projects-div {
+    display: inline-block;
+    margin: 0 !important;
+    /* margin-left: 0 !important; */
+    vertical-align: top;
+    width: 48% !important;
+    /* padding: 30% 0 30% 0 !important; */
+    /* margin: -30% -2px !important; */
   }
 
   .portfolio,
