@@ -13,6 +13,22 @@
   "projects": [
     {
       "no": {
+        "slug": "nasjonal",
+        "name": "Nasjonalmuseet",
+        "when_where": "Knowit Experience 2020",
+        "title": "Utvikler",
+        "description": "Jobbet med videreutivkling på Nasjonalmuseet <a href='https://www.nasjonalmuseet.no'>https://www.nasjonalmuseet.no</a>, med teknologier innen EPiServer, Vue.js, ElasticSearch, auth0 og Azure functions."
+      },
+      "en": {
+        "slug": "nasjonal",
+        "name": "The Norwegian National musuem",
+        "when_where": "Knowit Experience 2012",
+        "title": "Developer",
+        "description": "Worked on maintenance and further development for the Norwegian National Museum <a href='https://www.nasjonalmuseet.no'>https://www.nasjonalmuseet.no</a>, with tech such as EPiServer, Vue.js, ElasticSearch, auth0 and Azure functions."
+      }
+    },
+    {
+      "no": {
         "slug": "norsirk",
         "name": "NorsirkPortalen",
         "when_where": "Knowit Experience 2019 - 2020",
