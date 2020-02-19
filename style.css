@@ -200,6 +200,11 @@ header {
   border-bottom: 1px solid grey;
 }
 
+p.name {
+  margin: 0;
+  padding: 0;
+}
+
 .padding10 {
   padding: 0 10px;
 }
@@ -479,11 +484,6 @@ ul {
   .referanser div,
   .courses_and_certifications div {
     line-height: 1.2rem;
-  }
-
-  p.name {
-    margin: 0;
-    padding: 0;
   }
 
   .mini_header {
