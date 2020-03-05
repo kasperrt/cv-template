@@ -230,6 +230,10 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .referanser_flex div {

@@ -178,13 +178,7 @@
             }
           ?></span>
           <div class="referanser_flex">
-            <?php foreach($data["references"] as $ref): ?>
-              <div class="<?php echo $ref["slug"]; ?>">
-                <p class="mini_header"><?php echo $ref["company"]; ?></p>
-                <p class="name"><?php echo $ref["name"]; ?></p>
-                <p class="mini_header_date"><?php echo $ref["email"]; ?></p>
-              </div>
-            <?php endforeach; ?>
+            Oppgis ved forespørsel
           </div>
           <a href="javascript:window.print()" class="print"><?php
             if($norwegian) {
