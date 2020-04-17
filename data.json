@@ -205,20 +205,36 @@
     }
   ],
   "work": [
+  {
+    "no": {
+      "slug": "allermedia",
+      "name": "Aller Media",
+      "when_where": "Oslo 2020 - nå",
+      "title": "Utvikler",
+      "description": "Fastjobb i Aller Media i Oslo som utvikler."
+    },
+    "en": {
+      "slug": "allermedia",
+      "name": "Aller Media",
+      "when_where": "Oslo 2020 - now",
+      "title": "Developer",
+      "description": "Developer at Aller Media Oslo."
+    }
+  },
     {
       "no": {
         "slug": "knowitexperience",
         "name": "Knowit Experience",
-        "when_where": "Oslo 2019 - nå",
+        "when_where": "Oslo 2019 - 2020",
         "title": "Systemutvikler",
         "description": "Fastjobb i <a href='https://www.knowit.no/tjenester/experience/'>Knowit Experience</a> Oslo, som systemutvikler."
       },
       "en": {
         "slug": "knowitexperience",
         "name": "Knowit Experience",
-        "when_where": "Oslo 2019 - now",
+        "when_where": "Oslo 2019 - 2020",
         "title": "System developer",
-        "description": "Working as system developer at <a href='https://www.knowit.no/tjenester/experience/'>Knowit Experience</a> Oslo."
+        "description": "Worked as system developer at <a href='https://www.knowit.no/tjenester/experience/'>Knowit Experience</a> Oslo."
       }
     },
     {
