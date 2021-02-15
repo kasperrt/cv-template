@@ -333,10 +333,11 @@
         "node.js (2015)",
         "Python (2013)",
         "EPiServer (2019)",
-        "Chromecast - reciever/sender apps (2017)",
+        "Chromecast - receiver/sender apps (2017)",
         "React (2018) - react-native",
         "Vue.js (2019)",
         "Service-Workers (2019)",
+        "TypeScript (2019)",
         "Andre teknologier, xamarin forms, cordova"
       ],
       "Språk": [
@@ -352,10 +353,11 @@
         "node.js (2015)",
         "Python (2013)",
         "EPiServer (2019)",
-        "Chromecast - reciever/sender apps (2017)",
+        "Chromecast - receiver/sender apps (2017)",
         "React (2018) - react-native",
         "Vue.js (2019)",
         "Service-Workers (2019)",
+        "TypeScript (2019)",
         "Other technologies, xamarin forms, cordova"
       ],
       "Languages": ["Norwegian - Fluent", "English   - Fluent"]
