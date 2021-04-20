@@ -31,6 +31,34 @@
         document.getElementsByClassName("container-content")[0].style.opacity = 1;
       });
     </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-46250211-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-46250211-1", {
+        send_page_view: false,
+      });
+
+      <?php
+        if($norwegian):
+          ?>
+          gtag('config', "UA-46250211-1", { 'page_path': '/cv/no' });
+          <?php
+        endif;
+        if(!$norwegian):
+          ?>
+            gtag('config', "UA-46250211-1", { 'page_path': '/cv/en' });
+          <?php
+        endif;
+      ?>
+    </script>
   </head>
   <body style="<?php echo $data["background"]; ?>">
     <div class="container">
