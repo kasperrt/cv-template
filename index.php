@@ -69,6 +69,7 @@
             <header>
               <img class="me_picture desktop-picture" src="<?php echo $data["image"]; ?>">
               <span class="my_name"><?php echo $data["name"]; ?></span>
+              <span class="position"><?php echo $data["position"]; ?></span>
             </header>
             <div class="way_contact">
               <div class="contact_top">

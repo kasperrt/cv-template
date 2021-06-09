@@ -1,5 +1,6 @@
 {
   "name": "Kasper Rynning-Tønnesen",
+  "position": "Lead Developer - Aller Media Norge",
   "email": "kasper@rynning-toennesen.no",
   "phone": "+47 97 74 04 27",
   "image": "me.jpg",
@@ -205,22 +206,38 @@
     }
   ],
   "work": [
-  {
-    "no": {
-      "slug": "allermedia",
-      "name": "Aller Media",
-      "when_where": "Oslo 2020 - nå",
-      "title": "Utvikler",
-      "description": "Fastjobb i Aller Media i Oslo som utvikler."
+    {
+      "no": {
+        "slug": "allermedia",
+        "name": "Aller Media",
+        "when_where": "Oslo 2021 - nå",
+        "title": "Lead Developer",
+        "description": "Fastjobb i Aller Media i Oslo som Lead Developer."
+      },
+      "en": {
+        "slug": "allermedia",
+        "name": "Aller Media",
+        "when_where": "Oslo 2021 - now",
+        "title": "Lead Developer",
+        "description": "Lead Developer at Aller Media Oslo."
+      }
     },
-    "en": {
-      "slug": "allermedia",
-      "name": "Aller Media",
-      "when_where": "Oslo 2020 - now",
-      "title": "Developer",
-      "description": "Developer at Aller Media Oslo."
-    }
-  },
+    {
+      "no": {
+        "slug": "allermedia",
+        "name": "Aller Media",
+        "when_where": "Oslo 2020 - 2021",
+        "title": "Utvikler",
+        "description": "Fastjobb i Aller Media i Oslo som utvikler."
+      },
+      "en": {
+        "slug": "allermedia",
+        "name": "Aller Media",
+        "when_where": "Oslo 2020 - 2021",
+        "title": "Developer",
+        "description": "Developer at Aller Media Oslo."
+      }
+    },
     {
       "no": {
         "slug": "knowitexperience",
@@ -363,6 +380,5 @@
       "Languages": ["Norwegian - Fluent", "English   - Fluent"]
     }
   },
-  "references": [
-  ]
+  "references": []
 }

@@ -28,6 +28,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.position {
+  padding-top: 10px;
+  margin-bottom: -20px;
+}
+
 .json-language {
   left: 0;
 }
@@ -242,6 +247,9 @@ ul {
 
 @media only screen and (max-width: 736px) and (max-width: 600px),
   only screen and (max-device-width: 736px) {
+  .position {
+    font-size: 2rem;
+  }
   .container {
     max-width: 100%;
     margin-top: 0px;
@@ -292,6 +300,10 @@ ul {
   }
 }
 @media print {
+  .position {
+    display: none;
+  }
+
   body {
     background: white;
   }
