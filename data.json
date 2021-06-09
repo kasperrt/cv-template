@@ -18,7 +18,7 @@
         "name": "Nasjonalmuseet",
         "when_where": "Knowit Experience 2020",
         "title": "Utvikler",
-        "description": "Jobbet med videreutivkling på Nasjonalmuseet <a href='https://www.nasjonalmuseet.no'>https://www.nasjonalmuseet.no</a>, med teknologier innen EPiServer, Vue.js, ElasticSearch, auth0 og Azure functions."
+        "description": "Jobbet med videreutvikling på Nasjonalmuseet <a href='https://www.nasjonalmuseet.no'>https://www.nasjonalmuseet.no</a>, med teknologier innen EPiServer, Vue.js, ElasticSearch, auth0 og Azure functions."
       },
       "en": {
         "slug": "nasjonal",
@@ -34,7 +34,7 @@
         "name": "NorsirkPortalen",
         "when_where": "Knowit Experience 2019 - 2020",
         "title": "Utvikler",
-        "description": "Jobbet med videreutivkling på NorsirkPortalen <a href='https://norsirkportalen.no'>https://norsirkportalen.no</a>, med teknologier innen EPiServer, Service Fabric, ReactJS og microservices."
+        "description": "Jobbet med videreutvikling på NorsirkPortalen <a href='https://norsirkportalen.no'>https://norsirkportalen.no</a>, med teknologier innen EPiServer, Service Fabric, ReactJS og microservices."
       },
       "en": {
         "slug": "norsirk",
@@ -130,7 +130,7 @@
         "name": "LOS Pilot app",
         "when_where": "Knowit Experience 2017",
         "title": "Utvikler",
-        "description": "Utivklet en pilot mobilapplikasjon der brukere kunne se en oversikt over strømforbruk, laget i Xamarin.Forms."
+        "description": "Utviklet en pilot mobilapplikasjon der brukere kunne se en oversikt over strømforbruk, laget i Xamarin.Forms."
       },
       "en": {
         "slug": "los",
